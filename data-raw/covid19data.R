@@ -6,7 +6,7 @@ library(usethis)
 
 #read csv file
 covid19cv <-
-  read.csv("data-raw/cvcovid_12_04_2020_raw.csv")
+  read.csv("data-raw/cvcovid19_12_04_2020.csv")
 
 # Generate age range
 covid19cv$grupo_etario <- cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10))
@@ -18,7 +18,7 @@ covid19cv$Data<-as.Date(covid19cv$Data, format="%m/%d/%y")
 covid19cv$TipoTransmissao <- as.factor(covid19cv$TipoTransmissao)
 covid19cv$Sexo <- as.factor(covid19cv$Sexo)
 covid19cv$TipoCaso <- as.factor(covid19cv$TipoCaso)
-covid19cv$Data<-as.Date(covid19cv$Data, format="%d/%m/%Y")
+
 
 
 # Change Column Name
@@ -37,7 +37,7 @@ covid19cv$ilha <- as.factor(covid19cv$ilha)
 
 #Set Cities
 covid19cv$local <- gsub("Boa Vista", "Sal Rei", covid19cv$local)
-covid19cv$local <- gsub("São Vicente", "Mindelo", covid19cv$local)
+covid19cv$local <- gsub("Sao Vicente", "Mindelo", covid19cv$local)
 names(covid19cv)[7] <- "cidade"
 covid19cv$cidade <- as.factor(covid19cv$cidade)
 

@@ -1,0 +1,13 @@
+Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
+3/20/20,Inglesa,62,M,confirmado,Importado,Boa Vista
+3/21/20,Inglesa,56,M,confirmado,Importado,Boa Vista
+3/21/20,Holandesa,60,F,confirmado,Importado,Boa Vista
+3/24/20,Inglesa,62,M,obito,Importado,Boa Vista
+3/25/20,Cabo-verdiana,43,M,confirmado,Importado,Praia
+3/26/20,Cabo-verdiana,41,F,confirmado,Local,Praia
+3/28/20,Cabo-verdiana,35,M,confirmado,Local,Boa Vista
+4/4/20,Chinesa,56,F,confirmado,Local,Sao Vicente
+4/11/20,Cabo-verdiana,15,F,confirmado,Local,Praia
+4/12/20,Cabo-verdiana,24,F,confirmado,Local,Boa Vista
+4/12/20,Cabo-verdiana,33,M,confirmado,Local,Boa Vista
+4/13/20,Cabo-verdiana,24,M,confirmado,Local,Boa Vista
