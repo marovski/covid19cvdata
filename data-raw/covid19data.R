@@ -6,7 +6,7 @@ library(usethis)
 
 #read csv file
 covid19cv <-
-  read.csv("~/covid19cvdata/data-raw/cvcovid_12_04_2020_raw.csv")
+  read.csv("data-raw/cvcovid_12_04_2020_raw.csv")
 
 # Generate age range
 covid19cv$grupo_etario <- cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10))
@@ -48,7 +48,7 @@ covid19cv$lat <- as.numeric(covid19cv$lat)
 covid19cv$long <- as.numeric(covid19cv$long)
 
 
-write.csv(covid19cv, "data-raw/covid19cv.csv")
+write_csv(covid19cv, "data-raw/covid19cv.csv")
 usethis::use_data(covid19cv, overwrite = TRUE)
 
 
