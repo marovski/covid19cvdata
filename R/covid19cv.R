@@ -1,4 +1,5 @@
-
+#' @keywords covid19cvdata
+"_PACKAGE"
 NULL
 
 #' Data from Covid19 Cases in Cabo Verde.

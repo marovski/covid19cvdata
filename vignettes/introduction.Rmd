@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 library(covid19cvdata)
 ```
 
-# Load the dataset
+# Load the your dataset
 ```{r load}
-dataset<-covid19cvdata::covid19cv
+dataset<-covid19cv
 ```
