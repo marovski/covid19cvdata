@@ -30,7 +30,7 @@ get.ilha <- function(l) {
 #'
 #' This function allows to obtain the lat and lon of places in openstreetmaps API
 #' @param x for dataframe
-#' @param place for the address
+#' @param place argument to specify if this island or city (chr)
 #' @keywords get.geocode
 #' @return the altered dataframe with long and lat columns
 #' @examples
@@ -112,4 +112,6 @@ geo.reverse <- function(x) {
   }
   return(x)
 }
+
+
 

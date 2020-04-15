@@ -1,12 +1,13 @@
-Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
-3/20/20,Inglesa,62,M,confirmado,Importado,Boa Vista
-3/21/20,Inglesa,56,M,confirmado,Importado,Boa Vista
-3/21/20,Holandesa,60,F,confirmado,Importado,Boa Vista
-3/24/20,Inglesa,62,M,obito,Importado,Boa Vista
-3/25/20,Cabo-verdiana,43,M,confirmado,Importado,Praia
-3/26/20,Cabo-verdiana,41,F,confirmado,Local,Praia
-3/28/20,Cabo-verdiana,35,M,confirmado,Local,Boa Vista
-4/4/20,Chinesa,56,F,confirmado,Local,Sao Vicente
-4/11/20,Cabo-verdiana,15,F,confirmado,Local,Praia
-4/12/20,Cabo-verdiana,24,F,confirmado,Local,Boa Vista
-4/12/20,Cabo-verdiana,33,M,confirmado,Local,Boa Vista
+"","data","nacionalidade","faixa_etaria","sexo","tipo_caso","tipo_transmissao","cidade","grupo_etario","ilha","long","lat"
+"1",2020-03-20,"Inglesa","62","M","confirmado","Importado","Sal Rei","[60,70]","BV","-22.9169213","16.1759912"
+"2",2020-03-21,"Inglesa","56","M","confirmado","Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+"3",2020-03-21,"Holandesa","60","F","confirmado","Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+"4",2020-03-24,"Inglesa","62","M","obito","Importado","Sal Rei","[60,70]","BV","-22.9169213","16.1759912"
+"5",2020-03-25,"Cabo-verdiana","43","M","confirmado","Importado","Praia","[40,50]","ST","-23.5096132","14.9160169"
+"6",2020-03-26,"Cabo-verdiana","41","F","confirmado","Local","Praia","[40,50]","ST","-23.5096132","14.9160169"
+"7",2020-03-28,"Cabo-verdiana","35","M","confirmado","Local","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+"8",2020-04-04,"Chinesa","56","F","confirmado","Local","Sao Vicente","[50,60]","SV","-24.971986251115723","16.8492155"
+"9",2020-04-11,"Cabo-verdiana","15","F","confirmado","Local","Praia","[10,20]","ST","-23.5096132","14.9160169"
+"10",2020-04-12,"Cabo-verdiana","24","F","confirmado","Local","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+"11",2020-04-12,"Cabo-verdiana","33","M","confirmado","Local","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+"12",2020-04-13,"Cabo-verdiana","24","M","confirmado","Local","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"

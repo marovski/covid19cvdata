@@ -48,7 +48,7 @@ covid19cv$lat <- as.numeric(covid19cv$lat)
 covid19cv$long <- as.numeric(covid19cv$long)
 
 
-write_csv(covid19cv, "data-raw/covid19cv.csv")
+write.csv(covid19cv, "data-raw/covid19cv.csv")
 usethis::use_data(covid19cv, overwrite = TRUE)
 
 

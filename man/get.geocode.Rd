@@ -9,7 +9,7 @@ get.geocode(x, place)
 \arguments{
 \item{x}{for dataframe}
 
-\item{place}{for the address}
+\item{place}{argument to specify if this island or city (chr)}
 }
 \value{
 the altered dataframe with long and lat columns
