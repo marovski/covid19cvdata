@@ -4,7 +4,7 @@ library(RJSONIO)
 library(tidyr)
 library(usethis)
 
-#read csv file
+#read csv file 4 the first time
 covid19cv <-
   read.csv("data-raw/cvcovid19_12_04_2020.csv")
 
@@ -18,7 +18,6 @@ covid19cv$Data<-as.Date(covid19cv$Data, format="%m/%d/%y")
 covid19cv$TipoTransmissao <- as.factor(covid19cv$TipoTransmissao)
 covid19cv$Sexo <- as.factor(covid19cv$Sexo)
 covid19cv$TipoCaso <- as.factor(covid19cv$TipoCaso)
-
 
 
 # Change Column Name
