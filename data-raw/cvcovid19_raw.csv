@@ -4,6 +4,8 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 3/21/20,Inglesa,56,M,confirmado,Importado,Boa Vista
 3/24/20,Inglesa,62,M,obito,Importado,Boa Vista
 3/25/20,Cabo-verdiana,43,M,confirmado,Importado,Praia
+3/25/20,Inglesa,56,M,evacuado,Importado,Boa Vista
+3/25/20,Holandesa,60,F,evacuado,Importado,Boa Vista
 3/26/20,Cabo-verdiana,41,F,confirmado,Local,Praia
 3/28/20,Cabo-verdiana,35,M,confirmado,Local,Boa Vista
 4/4/20,Chinesa,56,F,confirmado,Local,Sao Vicente

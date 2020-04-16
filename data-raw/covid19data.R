@@ -3,6 +3,7 @@ library(dplyr, warn.conflicts = FALSE)
 library(RJSONIO)
 library(tidyr)
 library(usethis)
+require("R/supportfunctions.R")
 
 #read csv file 4 the first time
 covid19cv <-
