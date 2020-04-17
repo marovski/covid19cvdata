@@ -7,7 +7,7 @@ require("R/supportfunctions.R")
 
 #read csv file 4 the first time
 covid19cv <-
-    read.csv("data-raw/cvcovid19_raw.csv")
+    read.csv("data-raw/csv/cvcovid19_raw.csv")
 
 # Generate age range
 covid19cv$grupo_etario <- cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10))
@@ -40,6 +40,12 @@ covid19cv$ilha <- as.factor(covid19cv$ilha)
 #Set Cities
 covid19cv$local <- gsub("Boa Vista", "Sal Rei", covid19cv$local)
 covid19cv$local <- gsub("Sao Vicente", "Mindelo", covid19cv$local)
+covid19cv$local <- gsub("Fogo", "Sao Filipe", covid19cv$local)
+covid19cv$local <- gsub("Sao Antao", "Porto Novo", covid19cv$local)
+covid19cv$local <- gsub("Sal", "Espargos", covid19cv$local)
+covid19cv$local <- gsub("Brava", "Nova Sintra", covid19cv$local)
+covid19cv$local <- gsub("Sao Nicolau", "Ribeira Brava", covid19cv$local)
+covid19cv$local <- gsub("Maio", "Vila do Maio", covid19cv$local)
 names(covid19cv)[6] <- "cidade"
 covid19cv$cidade <- as.factor(covid19cv$cidade)
 
@@ -51,7 +57,7 @@ covid19cv$long <- as.numeric(covid19cv$long)
 
 #export csv
 
-write.csv(covid19cv, "data-raw/covid19cv.csv", row.names = FALSE)
+write.csv(covid19cv, "data-raw/csv/covid19cv.csv", row.names = FALSE)
 
 usethis::use_data(covid19cv, overwrite = TRUE)
 

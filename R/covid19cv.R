@@ -12,3 +12,20 @@ NULL
 #'   \code{cidade}, \code{grupo_etario},\code{ilha},\code{long},\code{lat}
 "covid19cv"
 
+#' Data from Covid19 by type of cases in Cabo Verde.
+#'
+#' Dataset organized with type of cases by date
+#'
+#'
+#' @format A data frame with eleven variables: \code{Data}, \code{recuperados},
+#'   \code{obitos}, \code{evacuados} , \code{confirmados}
+"covid19cv_nacional"
+
+#' Data from Covid19 by type of cases in Cabo Verde.
+#'
+#' Dataset organized with type of cases by date
+#'
+#'
+#' @format A data frame with eleven variables: \code{Data}, \code{recuperados},
+#'   \code{obitos}, \code{evacuados} , \code{confirmados}
+"covid19cv_nacional"
