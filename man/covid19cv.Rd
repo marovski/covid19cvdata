@@ -3,16 +3,19 @@
 \docType{data}
 \name{covid19cv}
 \alias{covid19cv}
-\title{Data from Covid19 Cases in Cabo Verde.}
+\title{Overall Summary of Covid19 Cases in Cabo Verde.}
 \format{
 A data frame with eleven variables: \code{data}, \code{nacionalidade},
   \code{faixa_etaria}, \code{sexo} , \code{tipo_caso},\code{tipo_transmissao},
   \code{cidade}, \code{grupo_etario},\code{ilha},\code{long},\code{lat}
 }
+\source{
+Public government website-covid19.cv
+}
 \usage{
 covid19cv
 }
 \description{
-Dataset organized with data from covid19.cv
+Dataset extracted from public source and organized by date of confirmed case of covid19
 }
 \keyword{datasets}

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Method to extract siglum — get.ilha • covid19cvdata</title>
+<title>Demographics Data of Covid19 Case in Cabo Verde. — covid19cv_pop • covid19cvdata</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Method to extract siglum — get.ilha" />
-<meta property="og:description" content="This function allows to extract the island siglum" />
+<meta property="og:title" content="Demographics Data of Covid19 Case in Cabo Verde. — covid19cv_pop" />
+<meta property="og:description" content="Dataset organized with type of cases by age group and sex" />
 
 
 
@@ -120,34 +120,26 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Method to extract siglum</h1>
-    <small class="dont-index">Source: <a href='https://github.com/marovski/covid19cvdata/blob/master/R/supportfunctions.R'><code>R/supportfunctions.R</code></a></small>
-    <div class="hidden name"><code>get.ilha.Rd</code></div>
+    <h1>Demographics Data of Covid19 Case in Cabo Verde.</h1>
+    <small class="dont-index">Source: <a href='https://github.com/marovski/covid19cvdata/blob/master/R/covid19cv.R'><code>R/covid19cv.R</code></a></small>
+    <div class="hidden name"><code>covid19cv_pop.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This function allows to extract the island siglum</p>
+    <p>Dataset organized with type of cases by age group and sex</p>
     </div>
 
-    <pre class="usage"><span class='fu'>get.ilha</span>(<span class='no'>l</span>)</pre>
+    <pre class="usage"><span class='no'>covid19cv_pop</span></pre>
 
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>l</th>
-      <td><p>for dataframe specific column</p></td>
-    </tr>
-    </table>
 
-    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>the altered dataframe</p>
+    <p>A data.frame with eleven variables: <code>grupo_etario</code>, <code>sexo</code>,
+  <code>recuperados</code>, <code>obitos</code> , <code>evacuados</code>,<code>confirmados</code>,<code>confirmados_ativos</code></p>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw'>if</span> (<span class='fl'>FALSE</span>) {
-<span class='fu'><a href='https://rdrr.io/r/base/lapply.html'>lapply</a></span>(<span class='no'>covid19cv</span>$<span class='no'>local</span>,<span class='no'>get.ilha</span>)
-}</div></pre>
+    <p>Public government website-covid19.cv</p>
+
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

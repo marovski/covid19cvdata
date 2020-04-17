@@ -19,7 +19,10 @@ Imports: RJSONIO,
          tidyverse,
          jsonlite,
          dplyr,
-         utils
+         usethis,
+         utils,
+         magrittr,
+         devtools
 Suggests: 
     knitr,
     rmarkdown

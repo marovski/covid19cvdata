@@ -18,6 +18,8 @@ the altered dataframe with long and lat columns
 This function allows to obtain the lat and lon of places in openstreetmaps API
 }
 \examples{
+\dontrun{
 get.geocode(covid19cv,covid19cv$cidade)
+}
 }
 \keyword{get.geocode}

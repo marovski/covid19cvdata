@@ -5,7 +5,10 @@
 #' @keywords get.ilha
 #' @return the altered dataframe
 #' @examples
+#' \dontrun{
 #' lapply(covid19cv$local,get.ilha)
+#' }
+#'
 #' @export
 get.ilha <- function(l) {
   split.location <-
@@ -34,7 +37,9 @@ get.ilha <- function(l) {
 #' @keywords get.geocode
 #' @return the altered dataframe with long and lat columns
 #' @examples
+#' \dontrun{
 #' get.geocode(covid19cv,covid19cv$cidade)
+#' }
 #' @export
 get.geocode <- function(x, place) {
   nrow <- nrow(x)
@@ -82,7 +87,10 @@ get.geocode <- function(x, place) {
 #' @keywords geo.reverse
 #' @return the altered dataframe with island name
 #' @examples
+#' \dontrun{
 #' geo.reverse(covid19cv)
+#' }
+#'
 #' @export
 geo.reverse <- function(x) {
   nrow <- nrow(x)
@@ -113,5 +121,196 @@ geo.reverse <- function(x) {
   return(x)
 }
 
+#' Update the Package datasets
+#'
+#' This function allows to update the datasets by comparing the changes in csv file
+#'
+#' @keywords data.update()
+#' @examples
+#' \dontrun{
+#' data.update()
+#' }
+#' @export
+data.update <- function(){
+
+  flag <- FALSE
+
+  `%>%` <- magrittr::`%>%`
+
+  #Loading the current version
+  cv_current <- covid19cvdata::covid19cv
+
+  #Loading the csv version
+  covid19cv <- read.csv("https://raw.githubusercontent.com/marovski/covid19cvdata/master/data-raw/csv/cvcovid19_raw.csv",
+                        stringsAsFactors = FALSE)
+
+  covid19cv$Data<-as.Date(covid19cv$Data, format="%m/%d/%y")
+
+  covid19cv<- covid19cv %>% dplyr::arrange(Data)
+
+  # Testing if there is a change in the data
+
+  if(identical(cv_current, covid19cv)){
+    print("No updates available")
+  } else {
+
+    if(nrow(cv_current) > nrow(covid19cv)){
+      print("The number of rows in the updated data is lower than the one in the current version")
+      flag<-TRUE
+    }
+
+    if(min(cv_current$data) != min(covid19cv$Data)){
+      print("The start date of the new dataset is not match the one in the current version")
+      flag<-TRUE
+    }
+
+  }
+  #Check if user want updates
+  if(flag){
+    x<-base::tolower(base::readline("Updates are available. Do you want to update? n/Y"))
+
+      if(x == "y" | x == "yes"){
+
+        base::tryCatch(
+          expr = {
+            # save and commit
+            #read csv file 4 the first time
+            covid19cv <-
+              read.csv("data-raw/csv/cvcovid19_raw.csv")
+
+            # Generate age range
+            covid19cv$grupo_etario <- cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10))
+            covid19cv$grupo_etario <- chartr("(", "[", covid19cv$grupo_etario)
+            covid19cv$grupo_etario <- as.factor(covid19cv$grupo_etario)
+
+            #Deleting column due to unaccurate data
+            covid19cv$FaixaEtaria<-NULL
+
+            #Convert to appropriate format
+            covid19cv$Data<-as.Date(covid19cv$Data, format="%m/%d/%y")
+            covid19cv$TipoTransmissao <- as.factor(covid19cv$TipoTransmissao)
+            covid19cv$Sexo <- as.factor(covid19cv$Sexo)
+            covid19cv$TipoCaso <- as.factor(covid19cv$TipoCaso)
 
 
+            # Change Column Name
+            colnames(covid19cv)<-tolower(colnames(covid19cv))
+
+
+            names(covid19cv)[4] <- "tipo_caso"
+            names(covid19cv)[5] <- "tipo_transmissao"
+
+
+            #get island
+            covid19cv$ilha <- lapply(covid19cv$local, get.ilha)
+            covid19cv$ilha <- gsub("Pa", "ST", covid19cv$ilha)
+            covid19cv$ilha <- as.factor(covid19cv$ilha)
+
+            #Set Cities
+            covid19cv$local <- gsub("Sal", "Espargos", covid19cv$local)
+            covid19cv$local <- gsub("Boa Vista", "Sal Rei", covid19cv$local)
+            covid19cv$local <- gsub("Sao Vicente", "Mindelo", covid19cv$local)
+            covid19cv$local <- gsub("Fogo", "Sao Filipe", covid19cv$local)
+            covid19cv$local <- gsub("Sao Antao", "Porto Novo", covid19cv$local)
+            covid19cv$local <- gsub("Brava", "Nova Sintra", covid19cv$local)
+            covid19cv$local <- gsub("Sao Nicolau", "Ribeira Brava", covid19cv$local)
+            covid19cv$local <- gsub("Maio", "Vila do Maio", covid19cv$local)
+            names(covid19cv)[6] <- "cidade"
+            covid19cv$cidade <- as.factor(covid19cv$cidade)
+
+            #Get lat and Long from Cities
+            covid19cv <- get.geocode(covid19cv, "cidade")
+
+            covid19cv$lat <- as.numeric(covid19cv$lat)
+            covid19cv$long <- as.numeric(covid19cv$long)
+
+
+            covid19cv_nacional<-covid19cv %>%
+              #Complete missing dates
+              mutate(Data = as.Date(data)) %>%
+              complete(Data = seq.Date(min(Data), today("GMT"), by="day")) %>%
+              group_by(Data) %>%
+              #summarise all values by case type
+              summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
+                        evacuados=sum(tipo_caso=="evacuado"),confirmados=sum(tipo_caso=="confirmado"))
+            #Clean NA
+            covid19cv_nacional[is.na(covid19cv_nacional)]<-0
+
+            #Cumulative Positive Cases
+            covid19cv_nacional$confirmados_acumulados<-cumsum(covid19cv_nacional$confirmados)
+
+            #Ative Positive Cases
+            covid19cv_nacional$confirmados_ativos<-cumsum(covid19cv_nacional$confirmados-covid19cv_nacional$obitos-covid19cv_nacional$recuperados-covid19cv_nacional$evacuados)
+
+            #get cases by cities
+            covid19cv_cidades<- covid19cv %>%  mutate(Data = as.Date(data)) %>%
+              complete(Data = seq.Date(min(Data), today("GMT"), by="day"),cidade) %>%
+              group_by(Data,cidade) %>%
+              #summarise all values by case type
+              summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
+                        evacuados=sum(tipo_caso=="evacuado"),confirmados=sum(tipo_caso=="confirmado")
+              )
+
+            #Clean NA
+            covid19cv_cidades[is.na(covid19cv_cidades)]<-0
+
+            #Cummulative cases for each cities by date
+            covid19cv_cidades<-covid19cv_cidades %>% group_by(cidade)%>%mutate(confirmados_acumulados=cumsum(confirmados))
+
+            #Ative positive cases
+            covid19cv_cidades<-covid19cv_cidades %>% group_by(cidade)%>%mutate(c_ativos_acumulados=cumsum(confirmados-recuperados-obitos-evacuados))
+
+            #Get lat & long
+            x<-covid19cv %>% select(cidade,lat,long,ilha)
+            x<-unique(x)
+
+            covid19cv_cidades <- left_join(covid19cv_cidades,x, by = "cidade")
+            covid19cv_cidades<-covid19cv_cidades[,c(1,2,9,10,11,3,4,5,6,7,8)]
+
+
+            #get cases by demographics
+            covid19cv_pop<- covid19cv %>%
+              group_by(grupo_etario,sexo) %>%
+              #summarise all values by case type
+              summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
+                        evacuados=sum(tipo_caso=="evacuado"),confirmados=sum(tipo_caso=="confirmado"))
+            #positve cases demographics
+            covid19cv_pop$confirmados_ativos<-covid19cv_pop$confirmados-covid19cv_pop$obitos-covid19cv_pop$recuperados-covid19cv_pop$evacuados
+
+            #set to dataframe to avoid future conflicts
+            covid19cv_cidades<-as.data.frame(covid19cv_cidades)
+            covid19cv_nacional<-as.data.frame(covid19cv_nacional)
+            covid19cv_pop<-as.data.frame(covid19cv_pop)
+
+
+            usethis::use_data(covid19cv, overwrite = TRUE)
+            usethis::use_data(covid19cv_cidades, overwrite = TRUE)
+            usethis::use_data(covid19cv_nacional, overwrite = TRUE)
+            usethis::use_data(covid19cv_pop, overwrite = TRUE)
+
+            flag <- TRUE
+            #export csv
+
+            write.csv(covid19cv, "data-raw/csv/covid19cv.csv", row.names = FALSE)
+
+
+            devtools::install_github("marovski/covid19cvdata")
+
+            base::message("The data was refresed, please restart your session to have the new data available")
+          },
+          error = function(e){
+            message('Caught an error!')
+            print(e)
+          },
+          warning = function(w){
+            message('Caught an warning!')
+            print(w)
+          }
+
+        )
+      }
+    } else {
+      base::message("No updates are available")
+    }
+
+}

@@ -16,6 +16,9 @@ the altered dataframe
 This function allows to extract the island siglum
 }
 \examples{
+\dontrun{
 lapply(covid19cv$local,get.ilha)
+}
+
 }
 \keyword{get.ilha}

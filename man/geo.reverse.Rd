@@ -16,6 +16,9 @@ the altered dataframe with island name
 This function allows to extract the island name with reverse geocode
 }
 \examples{
+\dontrun{
 geo.reverse(covid19cv)
+}
+
 }
 \keyword{geo.reverse}

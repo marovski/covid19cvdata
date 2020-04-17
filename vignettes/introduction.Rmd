@@ -1,5 +1,5 @@
 ---
-title: "How to Use"
+title: "How to Use The Covid19cvdata datasets"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{introduction}
@@ -13,13 +13,33 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+## Installation
 
+You can install the released version of covid19italy from [Github](https://github.com/marovski/covid19cvdata) with:
+
+``` r
+devtools::install.github("covid19cvdata")
+```
 # Load the library
 ```{r setup}
 library(covid19cvdata)
+
+data.update()
 ```
 
-# Load the your dataset
-```{r load}
-dataset<-covid19cv
+# Load the your dataset covid19cv
+```{r}
+dataset<-covidcvdata::covid19cv
+```
+# Load the your dataset covid19cv_nacional (Containing totals by case type)
+```{r}
+dataset<-covidcvdata::covid19cv_nacional
+```
+# Load the your dataset covid19cv_cidade (Containing totals by cities)
+```{r}
+dataset<-covidcvdata::covid19cv_cidade
+```
+# Load the your dataset covid19cv_pop (Containing totals by demographics)
+```{r}
+dataset<-covidcvdata::covid19cv_pop
 ```
