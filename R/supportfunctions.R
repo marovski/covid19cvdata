@@ -157,7 +157,7 @@ data.update <- function(){
   } else {
 
     if(nrow(cv_current) < nrow(covid19cv)){
-      print("The number of rows in the actual data is lower than the one in the current version")
+      print("The number of rows in the package dataset is lower than the one in the current version")
       flag<-TRUE
     }
 
@@ -178,6 +178,7 @@ data.update <- function(){
         base::tryCatch(
           expr = {
             # save and commit
+            print("Starting update....")
             #read csv file
             covid19cv <-
               utils::read.csv("data-raw/csv/cvcovid19_raw.csv")
