@@ -43,8 +43,8 @@ data.update()
 This is a basic example which shows you how to use the data
 
 ```{r} 
-data("covid19cv")
 
+data("covid19cv")
 
 ```
 ### Data Dictionary
@@ -53,7 +53,7 @@ missing...
 
 ### Data Sources
 
-*Public Website [covid19.cv](www.covid19.cv) with information about covid19 coordenated by Institute of Nacional Public Health of Cabo Verde.
+* Public Website [covid19.cv](www.covid19.cv) with information about covid19 coordenated by Institute of Nacional Public Health of Cabo Verde.
 
 ### Credits
 
