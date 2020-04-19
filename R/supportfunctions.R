@@ -50,7 +50,7 @@ get.geocode <- function(x, place) {
   while (counter <= nrow) {
     CityName <-
       gsub(' ', '%20', x[[place]][counter]) #remove space for URLs
-    print(CityName)
+
     CountryCode <- "CV"
     url <- paste(
       "http://nominatim.openstreetmap.org/search?city="
@@ -73,10 +73,11 @@ get.geocode <- function(x, place) {
     if (is.vector(y)) {
       x$long[counter]  <- y[[1]]$lon
       x$lat[counter]  <- y[[1]]$lat
+
     }
     counter <- counter + 1
   }
-
+  print("Got lat and long!")
   return (x)
 }
 
@@ -154,8 +155,8 @@ data.update <- function(){
     print("No updates available")
   } else {
 
-    if(nrow(cv_current) > nrow(covid19cv)){
-      print("The number of rows in the updated data is lower than the one in the current version")
+    if(nrow(cv_current) < nrow(covid19cv)){
+      print("The number of rows in the actual data is lower than the one in the current version")
       flag<-TRUE
     }
 
@@ -166,15 +167,17 @@ data.update <- function(){
 
   }
   #Check if user want updates
+
   if(flag){
-    x<-base::tolower(base::readline("Updates are available. Do you want to update? n/Y"))
+
+    x<-base::tolower(base::readline("Updates are available. Do you want to update? n/Y "))
 
       if(x == "y" | x == "yes"){
 
         base::tryCatch(
           expr = {
             # save and commit
-            #read csv file 4 the first time
+            #read csv file
             covid19cv <-
               read.csv("data-raw/csv/cvcovid19_raw.csv")
 
@@ -227,11 +230,11 @@ data.update <- function(){
 
             covid19cv_nacional<-covid19cv %>%
               #Complete missing dates
-              mutate(Data = as.Date(data)) %>%
-              complete(Data = seq.Date(min(Data), today("GMT"), by="day")) %>%
-              group_by(Data) %>%
+              dplyr::mutate(Data = as.Date(data)) %>%
+              tidyr::complete(Data = seq.Date(min(Data), Sys.Date(), by="day")) %>%
+              dplyr::group_by(Data) %>%
               #summarise all values by case type
-              summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
+              dplyr::summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
                         evacuados=sum(tipo_caso=="evacuado"),confirmados=sum(tipo_caso=="confirmado"))
             #Clean NA
             covid19cv_nacional[is.na(covid19cv_nacional)]<-0
@@ -241,13 +244,12 @@ data.update <- function(){
 
             #Ative Positive Cases
             covid19cv_nacional$confirmados_ativos<-cumsum(covid19cv_nacional$confirmados-covid19cv_nacional$obitos-covid19cv_nacional$recuperados-covid19cv_nacional$evacuados)
-
             #get cases by cities
-            covid19cv_cidades<- covid19cv %>%  mutate(Data = as.Date(data)) %>%
-              complete(Data = seq.Date(min(Data), today("GMT"), by="day"),cidade) %>%
-              group_by(Data,cidade) %>%
+            covid19cv_cidades<- covid19cv %>%  dplyr::mutate(Data = as.Date(data)) %>%
+              tidyr::complete(Data = seq.Date(min(Data), Sys.Date(), by="day"),cidade) %>%
+              dplyr::group_by(Data,cidade) %>%
               #summarise all values by case type
-              summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
+              dplyr::summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
                         evacuados=sum(tipo_caso=="evacuado"),confirmados=sum(tipo_caso=="confirmado")
               )
 
@@ -255,24 +257,24 @@ data.update <- function(){
             covid19cv_cidades[is.na(covid19cv_cidades)]<-0
 
             #Cummulative cases for each cities by date
-            covid19cv_cidades<-covid19cv_cidades %>% group_by(cidade)%>%mutate(confirmados_acumulados=cumsum(confirmados))
+            covid19cv_cidades<-covid19cv_cidades %>% dplyr::group_by(cidade)%>% dplyr::mutate(confirmados_acumulados=cumsum(confirmados))
 
             #Ative positive cases
-            covid19cv_cidades<-covid19cv_cidades %>% group_by(cidade)%>%mutate(c_ativos_acumulados=cumsum(confirmados-recuperados-obitos-evacuados))
+            covid19cv_cidades<-covid19cv_cidades %>% dplyr::group_by(cidade)%>% dplyr::mutate(c_ativos_acumulados=cumsum(confirmados-recuperados-obitos-evacuados))
 
             #Get lat & long
-            x<-covid19cv %>% select(cidade,lat,long,ilha)
+            x<-covid19cv %>% dplyr::select(cidade,lat,long,ilha)
             x<-unique(x)
 
-            covid19cv_cidades <- left_join(covid19cv_cidades,x, by = "cidade")
+            covid19cv_cidades <- dplyr::left_join(covid19cv_cidades,x, by = "cidade")
             covid19cv_cidades<-covid19cv_cidades[,c(1,2,9,10,11,3,4,5,6,7,8)]
 
 
             #get cases by demographics
             covid19cv_pop<- covid19cv %>%
-              group_by(grupo_etario,sexo) %>%
+              dplyr::group_by(grupo_etario,sexo) %>%
               #summarise all values by case type
-              summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
+              dplyr::summarise(recuperados=sum(tipo_caso=="recuperado"),obitos=sum(tipo_caso=="obito"),
                         evacuados=sum(tipo_caso=="evacuado"),confirmados=sum(tipo_caso=="confirmado"))
             #positve cases demographics
             covid19cv_pop$confirmados_ativos<-covid19cv_pop$confirmados-covid19cv_pop$obitos-covid19cv_pop$recuperados-covid19cv_pop$evacuados
@@ -291,10 +293,12 @@ data.update <- function(){
             flag <- TRUE
             #export csv
 
-            write.csv(covid19cv, "data-raw/csv/covid19cv.csv", row.names = FALSE)
+            utils::write.csv(covid19cv, "data-raw/csv/covid19cv.csv", row.names = FALSE)
 
+            devtools::document()
+            devtools::check()
+            devtools::install()
 
-            devtools::install_github("marovski/covid19cvdata")
 
             base::message("The data was refresed, please restart your session to have the new data available")
           },

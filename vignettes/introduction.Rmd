@@ -20,26 +20,26 @@ You can install the released version of covid19italy from [Github](https://githu
 ``` r
 devtools::install.github("covid19cvdata")
 ```
-# Load the library
+### Load the library
 ```{r setup}
 library(covid19cvdata)
 
 data.update()
 ```
 
-# Load the your dataset covid19cv
+### Load the your dataset covid19cv
 ```{r}
-dataset<-covidcvdata::covid19cv
+dataset<-covid19cvdata::covid19cv
 ```
-# Load the your dataset covid19cv_nacional (Containing totals by case type)
+### Load the your dataset covid19cv_nacional (Containing totals by case type)
 ```{r}
-dataset<-covidcvdata::covid19cv_nacional
+dataset<-covid19cvdata::covid19cv_nacional
 ```
-# Load the your dataset covid19cv_cidade (Containing totals by cities)
+### Load the your dataset covid19cv_cidades (Containing totals by cities)
 ```{r}
-dataset<-covidcvdata::covid19cv_cidade
+dataset<-covid19cvdata::covid19cv_cidades
 ```
-# Load the your dataset covid19cv_pop (Containing totals by demographics)
+### Load the your dataset covid19cv_pop (Containing totals by demographics)
 ```{r}
-dataset<-covidcvdata::covid19cv_pop
+dataset<-covid19cvdata::covid19cv_pop
 ```
