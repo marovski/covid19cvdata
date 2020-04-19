@@ -49,7 +49,7 @@ data("covid19cv")
 ```
 ### Data Dictionary
 
-
+missing...
 
 ### Data Sources
 
@@ -57,8 +57,11 @@ data("covid19cv")
 
 ### Credits
 
-* Italy Covid19 by [Rami Krispin](https://ramikrispin.github.io/italy_dash/#about): This project was a bible to learn how to building flexdashboard package and follow the tidy standart format applied. Thank You!
-+ covid19-dash by [João Silva](https://rpubs.com/joaosilva/covid19-dash): By the publication of João I got in touch with beautiful
++ covid19-dash by [João Silva](https://rpubs.com/joaosilva/covid19-dash): Thanks to João work and [post](https://www.linkedin.com/posts/antonio-joao_rpubs-covid-19-dashboard-activity-6647282965627850752-LvFd) I've came in contact with flexdashboard and how to build interesting dashboard, this inspired me to build something focus in Cabo Verde and Africa.
+
+* Italy Covid19 by [Rami Krispin](https://ramikrispin.github.io/italy_dash/#about): This project was a bible to learn how to build datasets package and follow the tidy standart format applied by his project [Covid19R](https://covid19r.github.io/documentation/index.html). Thank You!
+
+
 
 -------------------
 Please note that the 'covid19cvdata' project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
