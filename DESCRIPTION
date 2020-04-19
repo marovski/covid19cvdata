@@ -1,8 +1,8 @@
 Package: covid19cvdata
 Type: Package
 Title: Dataset for Cabo Verde Covid19 Data
-Version: 0.1.0
-Date: 2020-04-12
+Version: 0.1.9000
+Date: 2020-04-19
 Author@R: person("Mário", "Cardoso", email = "cardozo27cv@gmail.com",
   role = c("aut", "cre"))
 Author: Mário Cardoso
