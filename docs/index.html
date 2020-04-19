@@ -33,7 +33,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">covid19cvdata</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.9000</span>
       </span>
     </div>
 
@@ -92,26 +92,25 @@
 <li><p><code>covid19cv_cidades</code> - The number of cases by type for each city of Cabo Verde for each date since the first case</p></li>
 <li><p><code>covid19cv_pop</code> - The number of cases for each type (recovered,death,confirmed,ative,etc)by age group and sex</p></li>
 </ul>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h2>
+<div id="installation" class="section level3">
+<h3 class="hasAnchor">
+<a href="#installation" class="anchor"></a>Installation</h3>
 <p>You can install the most recent version of covid19cvdata from <a href="https://github.com/marovski/covid19cvdata">Github</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="r"><span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu">install.github</span>(<span class="st">"covid19cvdata"</span>)</pre></div>
 </div>
-<div id="data-update" class="section level2">
-<h2 class="hasAnchor">
-<a href="#data-update" class="anchor"></a>Data Update</h2>
+<div id="data-update" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-update" class="anchor"></a>Data Update</h3>
 <p>This is a basic example which shows you how to update the installed package datasets</p>
 <div class="sourceCode" id="cb2"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">covid19cvdata</span>)
 
 <span class="fu"><a href="reference/data.update.html">data.update</a></span>()</pre></div>
+</div>
 <div id="how-to-use" class="section level3">
 <h3 class="hasAnchor">
 <a href="#how-to-use" class="anchor"></a>How to Use</h3>
 <p>This is a basic example which shows you how to use the data</p>
-<pre class="{r}"><code><a href="https://rdrr.io/r/utils/data.html">data("covid19cv")
-
-</a></code></pre>
+<pre class="{r}"><code><a href="https://rdrr.io/r/utils/data.html">data("covid19cv")</a></code></pre>
 </div>
 <div id="data-dictionary" class="section level3">
 <h3 class="hasAnchor">
@@ -121,7 +120,9 @@
 <div id="data-sources" class="section level3">
 <h3 class="hasAnchor">
 <a href="#data-sources" class="anchor"></a>Data Sources</h3>
-<p>*Public Website <a href="www.covid19.cv">covid19.cv</a> with information about covid19 coordenated by Institute of Nacional Public Health of Cabo Verde.</p>
+<ul>
+<li>Public Website <a href="www.covid19.cv">covid19.cv</a> with information about covid19 coordenated by Institute of Nacional Public Health of Cabo Verde.</li>
+</ul>
 </div>
 <div id="credits" class="section level3">
 <h3 class="hasAnchor">
@@ -134,7 +135,6 @@
 </ul>
 <hr>
 <p>Please note that the ‘covid19cvdata’ project is released with a <a href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
-</div>
 </div>
 </div>
   </div>

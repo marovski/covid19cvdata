@@ -19,7 +19,7 @@ Mantainer [Marovski](https://github.com/marovski).
 
 
 
-## Installation
+### Installation
 
 You can install the most recent version of covid19cvdata from [Github](https://github.com/marovski/covid19cvdata) with:
 
@@ -27,7 +27,7 @@ You can install the most recent version of covid19cvdata from [Github](https://g
 devtools::install.github("covid19cvdata")
 ```
 
-## Data Update
+### Data Update
 
 This is a basic example which shows you how to update the installed package datasets
 
@@ -43,9 +43,7 @@ data.update()
 This is a basic example which shows you how to use the data
 
 ```{r} 
-
 data("covid19cv")
-
 ```
 ### Data Dictionary
 
