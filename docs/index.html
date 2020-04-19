@@ -80,9 +80,60 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-Dataset gather from public sources. This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean. Due the current situation of covid-19 in Cabo Verde there's been lacking 
-        a easy way to access data about the numbers about the evolution of the pandemic in the country. 
-        So, to address this issue I've manually gathered data from public sources (mainly the government website covid-19) and organized in csv files with a API to been able pass the information to any Data Nerd.
+<div id="covid19cvdata" class="section level1">
+<div class="page-header"><h1 class="hasAnchor">
+<a href="#covid19cvdata" class="anchor"></a>covid19cvdata</h1></div>
+<!-- badges: start -->
+
+<p>The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provided dashboards (the sad part) it was possible to extract the data from them and organize them in A Tidy format for the COVID-19 datasets. Mantainer <strong>Marovski</strong>.</p>
+<ul>
+<li><p><code>covid19cv</code> - For each date since the first case, containing the nacionality, the sex, the type of case and other categories.</p></li>
+<li><p><code>covid19cv_nacional</code> - The number of cases by type for each date since the first case</p></li>
+<li><p><code>covid19cv_cidades</code> - The number of cases by type for each city of Cabo Verde for each date since the first case</p></li>
+<li><p><code>covid19cv_pop</code> - The number of cases for each type (recovered,death,confirmed,ative,etc)by age group and sex</p></li>
+</ul>
+<div id="installation" class="section level2">
+<h2 class="hasAnchor">
+<a href="#installation" class="anchor"></a>Installation</h2>
+<p>You can install the most recent version of covid19cvdata from <a href="https://github.com/marovski/covid19cvdata">Github</a> with:</p>
+<div class="sourceCode" id="cb1"><pre class="r"><span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu">install.github</span>(<span class="st">"covid19cvdata"</span>)</pre></div>
+</div>
+<div id="data-update" class="section level2">
+<h2 class="hasAnchor">
+<a href="#data-update" class="anchor"></a>Data Update</h2>
+<p>This is a basic example which shows you how to update the installed package datasets</p>
+<div class="sourceCode" id="cb2"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">covid19cvdata</span>)
+
+<span class="fu"><a href="reference/data.update.html">data.update</a></span>()</pre></div>
+<div id="how-to-use" class="section level3">
+<h3 class="hasAnchor">
+<a href="#how-to-use" class="anchor"></a>How to Use</h3>
+<p>This is a basic example which shows you how to use the data</p>
+<pre class="{r}"><code><a href="https://rdrr.io/r/utils/data.html">data("covid19cv")
+
+</a></code></pre>
+</div>
+<div id="data-dictionary" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-dictionary" class="anchor"></a>Data Dictionary</h3>
+</div>
+<div id="data-sources" class="section level3">
+<h3 class="hasAnchor">
+<a href="#data-sources" class="anchor"></a>Data Sources</h3>
+<p>*Public Website <a href="www.covid19.cv">covid19.cv</a> with information about covid19 coordenated by Instituto Nacional de Saúde Pública de Cabo Verde.</p>
+</div>
+<div id="credits" class="section level3">
+<h3 class="hasAnchor">
+<a href="#credits" class="anchor"></a>Credits</h3>
+<ul>
+<li>Italy Covid19 by <a href="https://ramikrispin.github.io/italy_dash/#about">Rami</a>: This project was a bible to learn how to building flexdashboards and follow the tidy standart format applied by Rami. Thank You!</li>
+<li>covid19-dash by <a href="https://rpubs.com/joaosilva/covid19-dash">João Silva</a>: By the publication of João I got in touch with beautiful</li>
+</ul>
+<hr>
+<p>Please note that the ‘covid19cvdata’ project is released with a <a href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
+</div>
+</div>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -101,6 +152,12 @@ Dataset gather from public sources. This package contains all registered cases o
 <li>CC0</li>
 </ul>
 </div>
+<div class="community">
+<h2>Community</h2>
+<ul class="list-unstyled">
+<li><a href="CODE_OF_CONDUCT.html">Code of conduct</a></li>
+</ul>
+</div>
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
@@ -108,7 +165,13 @@ Dataset gather from public sources. This package contains all registered cases o
 </ul>
 </div>
 
-  </div>
+  <div class="dev-status">
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/marovski/covid-19-cabo-verde-data/actions"><img src="https://github.com/marovski/covid-19-cabo-verde-data/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
+</ul>
+</div>
+</div>
 </div>
 
 

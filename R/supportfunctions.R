@@ -1,3 +1,4 @@
+
 #' Method to extract siglum
 #'
 #' This function allows to extract the island siglum
@@ -142,7 +143,7 @@ data.update <- function(){
   cv_current <- covid19cvdata::covid19cv
 
   #Loading the csv version
-  covid19cv <- read.csv("https://raw.githubusercontent.com/marovski/covid19cvdata/master/data-raw/csv/cvcovid19_raw.csv",
+  covid19cv <- utils::read.csv("https://raw.githubusercontent.com/marovski/covid19cvdata/master/data-raw/csv/cvcovid19_raw.csv",
                         stringsAsFactors = FALSE)
 
   covid19cv$Data<-as.Date(covid19cv$Data, format="%m/%d/%y")
@@ -179,7 +180,7 @@ data.update <- function(){
             # save and commit
             #read csv file
             covid19cv <-
-              read.csv("data-raw/csv/cvcovid19_raw.csv")
+              utils::read.csv("data-raw/csv/cvcovid19_raw.csv")
 
             # Generate age range
             covid19cv$grupo_etario <- cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10))

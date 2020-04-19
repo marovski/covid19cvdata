@@ -6,9 +6,9 @@
 \alias{covid19cvdata-package}
 \title{covid19cvdata: Dataset for Cabo Verde Covid19 Data}
 \description{
-Dataset gather from public sources. This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean. Due the current situation of covid-19 in Cabo Verde there's been lacking 
-        a easy way to access data about the numbers about the evolution of the pandemic in the country. 
-        So, to address this issue I've manually gathered data from public sources (mainly the government website covid-19) and organized in csv files with a API to been able pass the information to any Data Nerd.
+This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean the public data. Due the current situation of covid-19 in Cabo Verde there's been lacking 
+        a easy way to access data about the numbers of the evolution of the pandemic in the country. 
+        So, to address this issue I've manually gathered data from public sources (mainly the government website covid-19) and organized in a package.
 }
 \seealso{
 Useful links:

@@ -43,3 +43,5 @@ NULL
 #'   \code{recuperados}, \code{obitos} , \code{evacuados},\code{confirmados},\code{confirmados_ativos}
 #'
 "covid19cv_pop"
+
+

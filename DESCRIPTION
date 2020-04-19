@@ -1,15 +1,15 @@
 Package: covid19cvdata
 Type: Package
 Title: Dataset for Cabo Verde Covid19 Data
-Version: 1.0
+Version: 0.1.0
 Date: 2020-04-12
 Author@R: person("Mário", "Cardoso", email = "cardozo27cv@gmail.com",
   role = c("aut", "cre"))
 Author: Mário Cardoso
 Maintainer: Marovski <cardozo27cv@gmail.com>
-Description: Dataset gather from public sources. This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean. Due the current situation of covid-19 in Cabo Verde there's been lacking 
-        a easy way to access data about the numbers about the evolution of the pandemic in the country. 
-        So, to address this issue I've manually gathered data from public sources (mainly the government website covid-19) and organized in csv files with a API to been able pass the information to any Data Nerd.
+Description: This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean the public data. Due the current situation of covid-19 in Cabo Verde there's been lacking 
+        a easy way to access data about the numbers of the evolution of the pandemic in the country. 
+        So, to address this issue I've manually gathered data from public sources (mainly the government website covid-19) and organized in a package.
 License: CC0
 Encoding: UTF-8
 LazyData: true
@@ -17,7 +17,7 @@ Depends: R (>= 3.1.0)
 RoxygenNote: 7.1.0
 Imports: RJSONIO,
          tidyverse,
-         jsonlite,
+         tidyr,
          dplyr,
          usethis,
          utils,
