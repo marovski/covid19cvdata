@@ -181,7 +181,8 @@ data.update <- function(){
             print("Starting update....")
             #read csv file
             covid19cv <-
-              utils::read.csv("data-raw/csv/cvcovid19_raw.csv")
+              utils::read.csv("https://raw.githubusercontent.com/marovski/covid19cvdata/master/data-raw/csv/cvcovid19_raw.csv",
+                              stringsAsFactors = FALSE)
 
             # Generate age range
             covid19cv$grupo_etario <- cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10))
