@@ -19,7 +19,7 @@ This function allows to obtain the lat and lon of places in openstreetmaps API
 }
 \examples{
 \dontrun{
-get.geocode(covid19cv,covid19cv$cidade)
+get.geocode(covid19cv,covid19cv$concelho)
 }
 }
 \keyword{get.geocode}
