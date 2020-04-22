@@ -6,10 +6,10 @@
 2020-03-25,"Cabo-verdiana","M","confirmado","Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
 2020-03-25,"Inglesa","M","evacuado","Importado","Boa Vista","[50,60]","BV",-22.8009410963036,16.099509
 2020-03-25,"Holandesa","F","evacuado","Importado","Boa Vista","[50,60]","BV",-22.8009410963036,16.099509
-2020-04-11,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70]","ST",-23.5096132,14.9160169
 2020-03-28,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40]","BV",-22.8009410963036,16.099509
 2020-04-04,"Chinesa","F","confirmado","Nao_Importado","Sao Vicente","[50,60]","SV",-24.9719862511157,16.8492155
-2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
+2020-03-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
 2020-04-12,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30]","BV",-22.8009410963036,16.099509
 2020-04-12,"","M","confirmado","Nao_Importado","Boa Vista","[30,40]","BV",-22.8009410963036,16.099509
 2020-04-14,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30]","BV",-22.8009410963036,16.099509
@@ -59,15 +59,20 @@
 2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[50,60]","BV",-22.8009410963036,16.099509
 2020-04-15,"Cabo-verdiana","M","recuperado","Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
 2020-04-17,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
-2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30]","ST",-23.5096132,14.9160169
-2020-04-19,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
-2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Tarrafal","[20,30]","ST",-24.3567672,16.5665068
-2020-03-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
 2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70]","ST",-23.5096132,14.9160169
+2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
+2020-04-19,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
+2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Tarrafal","[20,30]","ST",-24.3567672,16.5665068
+2020-04-22,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30]","ST",-23.5096132,14.9160169
+2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30]","ST",-23.5096132,14.9160169
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
 2020-04-20,"","M","confirmado","Nao_Importado","Boa Vista","[30,40]","BV",-22.8009410963036,16.099509
 2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
 2020-04-21,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
+2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
+2020-04-11,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
