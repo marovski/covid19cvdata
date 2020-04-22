@@ -1,4 +1,28 @@
+#' Method to add new data
+#'
+#' This function allows to insert new row
+#' @param x for dataframe
+#' @return the altered dataframe
+#' @examples
+#' \dontrun{
+#' insert.case(covid19cv)
+#' }
+#'
+#' @export
+insert.case<-function(x){
+  nrow=nrow(x)
+  ncol=ncol(x)
+  count<-1
+  nrow<-nrow+1
+  while (count<=ncol) {
 
+    x[nrow,count]<-readline(prompt = str_glue('Please enter the "{colnames(x[count])}" value: ') )
+
+    count<-count+1
+
+  }
+  return(x)
+}
 #' Method to extract siglum
 #'
 #' This function allows to extract the island siglum

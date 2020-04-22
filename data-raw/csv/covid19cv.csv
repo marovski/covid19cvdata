@@ -1,72 +1,73 @@
 "data","nacionalidade","sexo","tipo_caso","tipo_transmissao","cidade","grupo_etario","ilha","long","lat"
-2020-03-20,"Inglesa","M","confirmado","Importado","Sal Rei","[60,70]","BV",-22.9169213,16.1759912
-2020-03-21,"Holandesa","F","confirmado","Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-03-21,"Inglesa","M","confirmado","Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-03-24,"Inglesa","M","obito","Importado","Sal Rei","[60,70]","BV",-22.9169213,16.1759912
-2020-03-25,"Cabo-verdiana","M","confirmado","Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
-2020-03-25,"Inglesa","M","evacuado","Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-03-25,"Holandesa","F","evacuado","Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-04-11,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
-2020-03-28,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-04,"Chinesa","F","confirmado","Nao_Importado","Mindelo","[50,60]","SV",-24.9863842,16.8874145
-2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
-2020-04-12,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-12,"","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-14,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[10,20]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[10,20]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"","M","confirmado","Nao_Importado","Sal Rei","[40,50]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-04-15,"","M","confirmado","Nao_Importado","Sal Rei","[50,60]","BV",-22.9169213,16.1759912
-2020-04-15,"Cabo-verdiana","M","recuperado","Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
-2020-04-17,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST",-23.5096132,14.9160169
-2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30]","ST",-23.5096132,14.9160169
-2020-04-19,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
-2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Tarrafal","[20,30]","Ta",-24.3567672,16.5665068
-2020-03-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
-2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50]","ST",-23.5096132,14.9160169
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70]","ST",-23.5096132,14.9160169
-2020-04-20,"","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV",-22.9169213,16.1759912
-2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST",-23.5096132,14.9160169
+2020-03-20,"Inglesa","M","confirmado","Importado","Sal Rei","[60,70]","BV","-22.9169213","16.1759912"
+2020-03-21,"Holandesa","F","confirmado","Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-03-21,"Inglesa","M","confirmado","Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-03-24,"Inglesa","M","obito","Importado","Sal Rei","[60,70]","BV","-22.9169213","16.1759912"
+2020-03-25,"Cabo-verdiana","M","confirmado","Importado","Praia","[40,50]","ST","-23.5096132","14.9160169"
+2020-03-25,"Inglesa","M","evacuado","Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-03-25,"Holandesa","F","evacuado","Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-04-11,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST","-23.5096132","14.9160169"
+2020-03-28,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-04,"Chinesa","F","confirmado","Nao_Importado","Mindelo","[50,60]","SV","-24.9863842","16.8874145"
+2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST","-23.5096132","14.9160169"
+2020-04-12,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-12,"","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-14,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[10,20]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[10,20]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[20,30]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"","M","confirmado","Nao_Importado","Sal Rei","[40,50]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-04-15,"","M","confirmado","Nao_Importado","Sal Rei","[50,60]","BV","-22.9169213","16.1759912"
+2020-04-15,"Cabo-verdiana","M","recuperado","Importado","Praia","[40,50]","ST","-23.5096132","14.9160169"
+2020-04-17,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50]","ST","-23.5096132","14.9160169"
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20]","ST","-23.5096132","14.9160169"
+2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30]","ST","-23.5096132","14.9160169"
+2020-04-19,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST","-23.5096132","14.9160169"
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST","-23.5096132","14.9160169"
+2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40]","ST","-23.5096132","14.9160169"
+2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Tarrafal","[20,30]","ST","-24.3567672","16.5665068"
+2020-03-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50]","ST","-23.5096132","14.9160169"
+2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50]","ST","-23.5096132","14.9160169"
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70]","ST","-23.5096132","14.9160169"
+2020-04-20,"","M","confirmado","Nao_Importado","Sal Rei","[30,40]","BV","-22.9169213","16.1759912"
+2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40]","ST","-23.5096132","14.9160169"
+2020-04-21,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50]","ST","-23.50961","14.91602"
