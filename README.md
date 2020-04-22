@@ -3,7 +3,6 @@
 
 <!-- badges: start -->
 
-[![R build status](https://github.com/marovski/covid-19-cabo-verde-data/workflows/R-CMD-check/badge.svg)](https://github.com/marovski/covid-19-cabo-verde-data/actions)
 <!-- badges: end -->
 
 The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provided dashboards (the sad part) it was possible to extract the data from them and organize them in A Tidy format for the COVID-19 datasets.
@@ -55,7 +54,12 @@ missing...
 
 ### Credits
 
+<<<<<<< HEAD
 * Italy Covid19 by [Rami Krispin](https://ramikrispin.github.io/italy_dash/#about): This project was a bible to learn how to build datasets package and follow the tidy standart format applied by his project [Covid19R](https://covid19r.github.io/documentation/index.html). Thank You!
+=======
+
+* Italy Covid19 by [Rami Krispin](https://ramikrispin.github.io/italy_dash/#about): This project was a bible to learn how are build datasets package and follow the tidy standart format applied by his project [Covid19R](https://covid19r.github.io/documentation/index.html). Thank You!
+>>>>>>> cb9a1653e48a126ee39ce1523f4eb176c77ff13f
 
 * Tutorial on [R-bloggers](https://www.r-bloggers.com/creating-a-package-for-your-data-set/)
 
