@@ -3,7 +3,6 @@
 
 <!-- badges: start -->
 
-[![R build status](https://github.com/marovski/covid-19-cabo-verde-data/workflows/R-CMD-check/badge.svg)](https://github.com/marovski/covid-19-cabo-verde-data/actions)
 <!-- badges: end -->
 
 The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provided dashboards (the sad part) it was possible to extract the data from them and organize them in A Tidy format for the COVID-19 datasets.
