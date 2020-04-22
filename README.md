@@ -13,7 +13,7 @@ Mantainer [Marovski](https://github.com/marovski).
 
 + `covid19cv_nacional` - The number of cases by type for each date since the first case
 
-* `covid19cv_cidades` - The number of cases by type for each city of Cabo Verde for each date since the first case
+* `covid19cv_concelhos` - The number of cases by type for each province/region of Cabo Verde for each date since the first case
 
 * `covid19cv_pop` - The number of cases for each type (recovered,death,confirmed,ative,etc)by age group and sex
 

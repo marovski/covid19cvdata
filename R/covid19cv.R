@@ -9,7 +9,7 @@ NULL
 #' @source Public government website-covid19.cv
 #' @format A data frame with eleven variables: \code{data}, \code{nacionalidade},
 #'   \code{faixa_etaria}, \code{sexo} , \code{tipo_caso},\code{tipo_transmissao},
-#'   \code{cidade}, \code{grupo_etario},\code{ilha},\code{long},\code{lat}
+#'   \code{concelho}, \code{grupo_etario},\code{ilha},\code{long},\code{lat}
 #'
 "covid19cv"
 
@@ -28,11 +28,11 @@ NULL
 #' Dataset organized with type of cases by cities
 #'
 #' @source Public government website-covid19.cv
-#' @format A data.frame with eleven variables: \code{Data}, \code{cidade},
+#' @format A data.frame with eleven variables: \code{Data}, \code{concelho},
 #'   \code{lat}, \code{long} , \code{ilha},\code{recuperados},\code{obitos},
 #'   \code{evacuados},\code{confirmados},\code{confirmados_acumulados},\code{c_ativos_acumulados}
 #'
-"covid19cv_cidades"
+"covid19cv_concelhos"
 
 #' Demographics Data of Covid19 Case in Cabo Verde.
 #'

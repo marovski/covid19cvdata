@@ -7,7 +7,7 @@
 \format{
 A data frame with eleven variables: \code{data}, \code{nacionalidade},
   \code{faixa_etaria}, \code{sexo} , \code{tipo_caso},\code{tipo_transmissao},
-  \code{cidade}, \code{grupo_etario},\code{ilha},\code{long},\code{lat}
+  \code{concelho}, \code{grupo_etario},\code{ilha},\code{long},\code{lat}
 }
 \source{
 Public government website-covid19.cv
