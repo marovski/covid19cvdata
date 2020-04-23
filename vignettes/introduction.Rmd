@@ -35,9 +35,9 @@ dataset<-covid19cvdata::covid19cv
 ```{r}
 dataset<-covid19cvdata::covid19cv_nacional
 ```
-### Load the your dataset covid19cv_cidades (Containing totals by cities)
+### Load the your dataset covid19cv_concelhos (Containing totals by cities)
 ```{r}
-dataset<-covid19cvdata::covid19cv_cidades
+dataset<-covid19cvdata::covid19cv_concelhos
 ```
 ### Load the your dataset covid19cv_pop (Containing totals by demographics)
 ```{r}
