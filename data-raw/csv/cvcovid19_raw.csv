@@ -8,7 +8,7 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 3/25/20,Holandesa,60,F,evacuado,Importado,Boa Vista
 3/26/20,Cabo-verdiana,41,F,confirmado,Nao_Importado,Praia
 3/28/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Boa Vista
-4/4/20,Chinesa,56,F,confirmado,Nao_Importado,Sao Vicente
+4/4/20,Chinesa,56,F,confirmado,Nao_Importado,S‹o Vicente
 4/11/20,Cabo-verdiana,15,F,confirmado,Nao_Importado,Praia
 4/12/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
 4/12/20,,33,M,confirmado,Nao_Importado,Boa Vista
@@ -85,3 +85,9 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 4/23/20,Cabo-verdiana,24,M,confirmado,Nao_Importado,Praia
 4/23/20,Cabo-verdiana,18,M,confirmado,Nao_Importado,Praia
 4/23/20,Cabo-verdiana,19,F,confirmado,Nao_Importado,Praia
+4/24/20,Cabo-verdiana,23,F,confirmado,Importado,Praia
+4/24/20,Cabo-verdiana,26,M,confirmado,Nao_Importado,Praia
+4/24/20,Cabo-verdiana,27,M,confirmado,Nao_Importado,Praia
+4/24/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Praia
+4/24/20,Cabo-verdiana,78,M,confirmado,Nao_Importado,Praia
+4/24/20,Cabo-verdiana,74,M,confirmado,Nao_Importado,S‹o Domingos
