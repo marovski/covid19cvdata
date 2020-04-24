@@ -179,7 +179,7 @@ data.update <- function() {
   #Loading the csv version
   covid19cv <-
     utils::read.csv(
-      "https://raw.githubusercontent.com/marovski/covid19cvdata/master/data-raw/csv/cvcovid19_raw.csv",
+      "./data-raw/csv/cvcovid19_raw.csv",
       stringsAsFactors = FALSE
     )
 
@@ -217,7 +217,7 @@ data.update <- function() {
           #read csv file
           covid19cv <-
             utils::read.csv(
-              "https://raw.githubusercontent.com/marovski/covid19cvdata/master/data-raw/csv/cvcovid19_raw.csv",
+              "./data-raw/csv/cvcovid19_raw.csv",
               stringsAsFactors = FALSE
             )
 
@@ -267,11 +267,11 @@ data.update <- function() {
           names(covid19cv)[6] <- "concelho"
           covid19cv$concelho <- as.factor(covid19cv$concelho)
 
-          # #Get lat and Long from Cities
-          # covid19cv <- get.geocode(covid19cv, "concelho")
-          #
-          # covid19cv$lat <- as.numeric(covid19cv$lat)
-          # covid19cv$long <- as.numeric(covid19cv$long)
+          #Get lat and Long from Cities
+          covid19cv <- get.geocode(covid19cv, "concelho")
+
+          covid19cv$lat <- as.numeric(covid19cv$lat)
+          covid19cv$long <- as.numeric(covid19cv$long)
 
 
           covid19cv_nacional <- covid19cv %>%
