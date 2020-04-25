@@ -375,10 +375,8 @@ data.update <- function() {
           if (git2r::in_repository()) {
           # > Commit Everything ----
           git2r::add(repository(),"*")
-          git2r::commit(message = glue::glue("[auto update]"))
-          git2r::push()
-        } else {
-          fs::file_delete(unlist(git2r::status()$untracked))
+          git2r::commit(repository(),message = "add changes to from data refresh", session = TRUE)
+          git2r::push(repository(), credentials = cred_token() )
         }
 
 
