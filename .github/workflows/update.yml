@@ -2,10 +2,10 @@ name: Data Refresh
 
 on: 
   schedule:
-    - cron:  '0 */8 * * *'
+    - cron:  '0 */7 * * *'
 jobs:
    build:
-    name: coronavirus dataset refresh
+    name: coronaviruscv dataset refresh
     runs-on: macOS-latest
     steps:
       - name: checkout_repo
