@@ -376,7 +376,7 @@ data.update <- function() {
           # > Commit Everything ----
           git2r::add(repository(),"*")
           git2r::commit(repository(),message = "add changes to from data refresh", session = TRUE)
-          git2r::push(repository(), "origin", "refs/heads/master")
+
         }
 
 
