@@ -1,0 +1,33 @@
+name: Data Refresh
+
+on: 
+  schedule:
+    - cron:  '0 */7 * * *'
+jobs:
+   build:
+    name: coronaviruscv dataset refresh
+    runs-on: macOS-latest
+    steps:
+      - name: checkout_repo
+        uses: actions/checkout@v2
+      - name: set_R
+        uses: r-lib/actions/setup-r@master
+        with:
+          repository: ${{ github.repository }}
+          ref: 'master'
+          token: ${{ github.token }}
+          clean: 'true'
+          fetch-depth: '1'
+      - name: Install dependencies
+        run: Rscript -e "install.packages(c('dplyr', 'lubridate', 'usethis', 'remotes'))" -e "remotes::install_deps(dependencies = TRUE)"
+      - name: Refresh the data
+        run: Rscript -e "library(covid19cvdata)" -e "data.update()"
+      - name: Push the updates
+        if: success()
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+              git config --global user.name 'marovski'
+              git config --global user.email 'cardozo27cv@gmail.com'
+              git commit -am "Update cv data"
+              git push
+          fi
