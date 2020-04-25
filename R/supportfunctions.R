@@ -223,9 +223,9 @@ data.update <- function() {
 
           # Generate age range
           covid19cv$grupo_etario <-
-            cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 9))
+            cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10),right = FALSE)
           covid19cv$grupo_etario <-
-            chartr("(", "[", covid19cv$grupo_etario)
+            chartr(")", "[", covid19cv$grupo_etario)
           covid19cv$grupo_etario <-
             as.factor(covid19cv$grupo_etario)
 
