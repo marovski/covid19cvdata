@@ -54,12 +54,7 @@ missing...
 
 ### Credits
 
-<<<<<<< HEAD
 * Italy Covid19 by [Rami Krispin](https://ramikrispin.github.io/italy_dash/#about): This project was a bible to learn how to build datasets package and follow the tidy standart format applied by his project [Covid19R](https://covid19r.github.io/documentation/index.html). Thank You!
-=======
-
-* Italy Covid19 by [Rami Krispin](https://ramikrispin.github.io/italy_dash/#about): This project was a bible to learn how are build datasets package and follow the tidy standart format applied by his project [Covid19R](https://covid19r.github.io/documentation/index.html). Thank You!
->>>>>>> cb9a1653e48a126ee39ce1523f4eb176c77ff13f
 
 * Tutorial on [R-bloggers](https://www.r-bloggers.com/creating-a-package-for-your-data-set/)
 
