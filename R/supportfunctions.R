@@ -375,7 +375,7 @@ data.update <- function() {
           if (git2r::in_repository()) {
           # > Commit Everything ----
           git2r::add(".", ".")
-          git2r::commit(message = glue("[auto update]"))
+          git2r::commit(message = glue::glue("[auto update]"))
           git2r::push(credentials = git2r::cred_ssh_key())
         } else {
           fs::file_delete(unlist(git2r::status()$untracked))
