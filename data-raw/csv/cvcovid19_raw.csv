@@ -1,5 +1,5 @@
 Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
-3/20/20,Inglesa,62,M,confirmado,Importado,Boa Vista
+3/19/20,Inglesa,62,M,confirmado,Importado,Boa Vista
 3/21/20,Holandesa,60,F,confirmado,Importado,Boa Vista
 3/21/20,Inglesa,56,M,confirmado,Importado,Boa Vista
 3/24/20,Inglesa,62,M,obito,Importado,Boa Vista
@@ -8,55 +8,55 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 3/25/20,Holandesa,60,F,evacuado,Importado,Boa Vista
 3/26/20,Cabo-verdiana,41,F,confirmado,Nao_Importado,Praia
 3/28/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Boa Vista
-4/4/20,Chinesa,56,F,confirmado,Nao_Importado,Sao Vicente
-4/11/20,Cabo-verdiana,15,F,confirmado,Nao_Importado,Praia
+3/4/20,Chinesa,56,F,confirmado,Nao_Importado,Sao Vicente
+4/10/20,Cabo-verdiana,15,F,confirmado,Nao_Importado,Praia
 4/12/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
 4/12/20,,33,M,confirmado,Nao_Importado,Boa Vista
 4/14/20,Cabo-verdiana,24,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,18,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,19,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,22,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,22,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,23,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,23,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,23,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,23,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,24,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,25,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,25,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,25,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,26,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,26,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,25,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,34,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,32,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,33,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,33,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,,33,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,34,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,34,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,34,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,34,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,,43,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,36,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,36,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,54,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,53,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,52,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,38,F,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,37,M,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,37,M,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,37,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,38,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,52,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,53,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,54,M,confirmado,Nao_Importado,Boa Vista
-4/15/20,,52,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,36,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,36,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,34,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,34,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,34,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,34,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,34,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,33,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,33,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,,33,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,32,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,26,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,26,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,25,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,,43,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,25,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,25,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,24,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,23,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,23,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,23,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,22,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,,35,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,22,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,,54,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,24,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,23,M,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,19,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Cabo-verdiana,18,F,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,43,M,recuperado,Importado,Praia
 4/17/20,Cabo-verdiana,43,M,confirmado,Nao_Importado,Praia
 4/18/20,Cabo-verdiana,35,F,confirmado,Nao_Importado,Praia
@@ -64,7 +64,7 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 4/19/20,Cabo-verdiana,41,F,confirmado,Nao_Importado,Praia
 4/19/20,Cabo-verdiana,27,F,confirmado,Nao_Importado,Praia
 4/19/20,Cabo-verdiana,38,M,confirmado,Nao_Importado,Praia
-4/20/20,Cabo-verdiana,21,M,confirmado,Nao_Importado,Tarrafal
+4/20/20,Cabo-verdiana,19,M,confirmado,Nao_Importado,Tarrafal
 4/20/20,Cabo-verdiana,61,F,confirmado,Nao_Importado,Praia
 4/20/20,Cabo-verdiana,32,F,confirmado,Nao_Importado,Praia
 4/20/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Praia
@@ -91,3 +91,5 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 4/24/20,Cabo-verdiana,35,M,confirmado,Nao_Importado,Praia
 4/24/20,Cabo-verdiana,78,M,confirmado,Nao_Importado,Praia
 4/24/20,Cabo-verdiana,74,M,confirmado,Nao_Importado,Sao Domingos
+4/25/20,Cabo-verdiana,19,F,confirmado,Nao_Importado,Tarrafal
+4/25/20,Cabo-verdiana,45,M,confirmado,Nao_Importado,Praia

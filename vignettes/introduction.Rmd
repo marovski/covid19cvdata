@@ -22,10 +22,11 @@ devtools::install_github("marovski/covid19cvdata")
 
 ```
 ### Load the library
-```{r }
+```{r}
+
 library(covid19cvdata)
 
-data.update()
+
 ```
 
 ### Load the your dataset covid19cv

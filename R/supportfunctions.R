@@ -223,7 +223,7 @@ data.update <- function() {
 
           # Generate age range
           covid19cv$grupo_etario <-
-            cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 10))
+            cut(as.numeric(covid19cv$FaixaEtaria), seq(0, 100, 9))
           covid19cv$grupo_etario <-
             chartr("(", "[", covid19cv$grupo_etario)
           covid19cv$grupo_etario <-
@@ -371,6 +371,15 @@ data.update <- function() {
           devtools::document()
           devtools::check()
           devtools::install()
+
+          if (git2r::in_repository()) {
+          # > Commit Everything ----
+          git2r::add(".", ".")
+          git2r::commit(message = glue("[auto update]"))
+          git2r::push(credentials = git2r::cred_ssh_key())
+        } else {
+          fs::file_delete(unlist(git2r::status()$untracked))
+        }
 
 
           base::message("The data was refresed, please restart your session to have the new data available")
