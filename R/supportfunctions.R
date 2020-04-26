@@ -372,13 +372,6 @@ data.update <- function() {
           devtools::check()
           devtools::install()
 
-          if (git2r::in_repository()) {
-          # > Commit Everything ----
-          git2r::add(repository(),"*")
-          git2r::commit(repository(),message = "add changes to from data refresh", session = TRUE)
-
-        }
-
 
           base::message("The data was refresed, please restart your session to have the new data available")
         },
