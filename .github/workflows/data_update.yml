@@ -21,9 +21,9 @@ jobs:
       - name: Install dependencies
         run: Rscript -e "install.packages(c('dplyr', 'lubridate', 'usethis', 'remotes','devtools'))" -e "remotes::install_deps(dependencies = TRUE)"
       - name: Install Package
-        run: Rscript -e "devtools::install_github('marovski/covid19cvdata')"
+        run: Rscript -e "devtools::install_github('marovski/covid19cvdata')" -e "library(covid19cvdata)"
       - name: Refresh the data
-        run: Rscript -e "library(covid19cvdata)" -e "data.update()"
+        run: Rscript ./data-raw/data_update.R
       - name: Push the updates
         if: success()
         run: |
