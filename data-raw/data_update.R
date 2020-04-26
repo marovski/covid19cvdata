@@ -1,3 +1,4 @@
+source(file = "./R/supportfunctions.R")
 data.update <- function() {
   flag <- FALSE
 
