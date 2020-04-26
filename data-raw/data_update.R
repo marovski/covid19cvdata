@@ -220,3 +220,5 @@ data.update <- function() {
   }
 
 }
+
+data.update()
