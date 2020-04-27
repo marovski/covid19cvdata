@@ -16,7 +16,7 @@ insert.case <- function(x) {
   nrow <- nrow + 1
   while (count <= ncol) {
     x[nrow, count] <-
-      readline(prompt = str_glue('Please enter the "{colnames(x[count])}" value: '))
+      readline(prompt = glue::str_glue('Please enter the "{colnames(x[count])}" value: '))
 
     count <- count + 1
 
@@ -192,8 +192,8 @@ data.update <- function() {
   if (identical(cv_current, covid19cv)) {
     print("No updates available")
   } else {
-    if (nrow(cv_current) < nrow(covid19cv)) {
-      print("The number of rows in the package dataset is lower than the one in the current version")
+    if (nrow(cv_current) != nrow(covid19cv)) {
+      print("The number of rows in the package dataset is different than the one in the current version")
       flag <- TRUE
     }
 
