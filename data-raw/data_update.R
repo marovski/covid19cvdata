@@ -23,7 +23,7 @@ data.update <- function() {
   if (identical(cv_current, covid19cv)) {
     print("No updates available")
   } else {
-    if (nrow(cv_current) < nrow(covid19cv)) {
+    if (nrow(cv_current) != nrow(covid19cv)) {
       print("The number of rows in the package dataset is lower than the one in the current version")
       flag <- TRUE
     }
