@@ -1,111 +1,112 @@
-"data","nacionalidade","sexo","tipo_caso","tipo_transmissao","concelho","grupo_etario"
-2020-03-19,"Inglesa","M","confirmado","Importado","Boa Vista","[60,70["
-2020-03-21,"Holandesa","F","confirmado","Importado","Boa Vista","[60,70["
-2020-03-21,"Inglesa","M","confirmado","Importado","Boa Vista","[50,60["
-2020-03-24,"Inglesa","M","obito","Importado","Boa Vista","[60,70["
-2020-03-25,"Cabo-verdiana","M","confirmado","Importado","Praia","[40,50["
-2020-03-25,"Inglesa","M","evacuado","Importado","Boa Vista","[50,60["
-2020-03-25,"Holandesa","F","evacuado","Importado","Boa Vista","[60,70["
-2020-03-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50["
-2020-03-28,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-04,"Chinesa","F","confirmado","Nao_Importado","Sao Vicente","[50,60["
-2020-04-10,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-12,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-12,"","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-14,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[50,60["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[50,60["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[50,60["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[40,50["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[50,60["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[10,20["
-2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[10,20["
-2020-04-15,"Cabo-verdiana","M","recuperado","Importado","Praia","[40,50["
-2020-04-17,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30["
-2020-04-19,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Tarrafal","[10,20["
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70["
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-20,"","M","confirmado","Nao_Importado","Boa Vista","[30,40["
-2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-21,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-22,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-22,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30["
-2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[80,90["
-2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30["
-2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-24,"Cabo-verdiana","F","confirmado","Importado","Praia","[20,30["
-2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30["
-2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30["
-2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[70,80["
-2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Sao Domingos","[70,80["
-2020-04-25,"Cabo-verdiana","F","confirmado","Nao_Importado","Tarrafal","[10,20["
-2020-04-25,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[0,10["
-2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[50,60["
-2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50["
-2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20["
-2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70["
+"data","nacionalidade","sexo","tipo_caso","tipo_transmissao","concelho","grupo_etario","ilha","long","lat"
+2020-03-19,"Inglesa","M","confirmado","Importado","Boa Vista","[60,70[","BV",-22.8009410963036,16.099509
+2020-03-21,"Holandesa","F","confirmado","Importado","Boa Vista","[60,70[","BV",-22.8009410963036,16.099509
+2020-03-21,"Inglesa","M","confirmado","Importado","Boa Vista","[50,60[","BV",-22.8009410963036,16.099509
+2020-03-24,"Inglesa","M","obito","Importado","Boa Vista","[60,70[","BV",-22.8009410963036,16.099509
+2020-03-25,"Cabo-verdiana","M","confirmado","Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-03-25,"Inglesa","M","evacuado","Importado","Boa Vista","[50,60[","BV",-22.8009410963036,16.099509
+2020-03-25,"Holandesa","F","evacuado","Importado","Boa Vista","[60,70[","BV",-22.8009410963036,16.099509
+2020-03-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-03-28,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-04,"Chinesa","F","confirmado","Nao_Importado","Sao Vicente","[50,60[","SV",-24.9719862511157,16.8492155
+2020-04-10,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-12,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-12,"","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-14,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[50,60[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[50,60[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[50,60[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[40,50[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"","M","confirmado","Nao_Importado","Boa Vista","[50,60[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[10,20[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[10,20[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","recuperado","Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-17,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-19,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-19,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Tarrafal","[10,20[","ST",-24.3567672,16.5665068
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70[","ST",-23.5096132,14.9160169
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-20,"","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-21,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[80,90[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-23,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-24,"Cabo-verdiana","F","confirmado","Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[70,80[","ST",-23.5096132,14.9160169
+2020-04-24,"Cabo-verdiana","M","confirmado","Nao_Importado","Sao Domingos","[70,80[","SD",-23.5613463,15.0268856
+2020-04-25,"Cabo-verdiana","F","confirmado","Nao_Importado","Tarrafal","[10,20[","ST",-24.3567672,16.5665068
+2020-04-25,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[0,10[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[50,60[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70[","ST",-23.5096132,14.9160169
+2020-04-26,"Cabo-verdiana","M","recuperado","Nao_Importado","","[30,40[","",0,0
