@@ -57,6 +57,9 @@
 2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[20,30[","BV",-22.8009410963036,16.099509
 2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[10,20[","BV",-22.8009410963036,16.099509
 2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[10,20[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
+2020-04-15,"Cabo-verdiana","F","confirmado","Nao_Importado","Boa Vista","[40,50[","BV",-22.8009410963036,16.099509
 2020-04-15,"Cabo-verdiana","M","recuperado","Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-04-17,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-04-18,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
@@ -70,6 +73,8 @@
 2020-04-20,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
 2020-04-20,"Guineense","M","confirmado","Nao_Importado","Boa Vista","[30,40[","BV",-22.8009410963036,16.099509
 2020-04-20,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[10,20[","ST",-23.5096132,14.9160169
+2020-04-20,"Brasileira","F","confirmado","Nao_Importado","Sao Vicente","[10,20[","SV",-24.9719862511157,16.8492155
+2020-04-20,"Brasileira","M","confirmado","Nao_Importado","Sao Vicente","[50,60[","SV",-24.9719862511157,16.8492155
 2020-04-21,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-04-22,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-04-22,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
@@ -120,3 +125,5 @@
 2020-04-30,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-04-30,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
 2020-04-30,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-04-30,"Brasileira","F","recuperado","Nao_Importado","Sao Vicente","[10,20[","SV",-24.9719862511157,16.8492155
+2020-04-30,"Brasileira","M","recuperado","Nao_Importado","Sao Vicente","[50,60[","SV",-24.9719862511157,16.8492155
