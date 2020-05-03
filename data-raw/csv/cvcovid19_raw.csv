@@ -56,7 +56,7 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 4/15/20,Cabo-verdiana,24,M,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,23,M,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,19,F,confirmado,Nao_Importado,Boa Vista
-4/15/20,Cabo-verdiana,18,F,confirmado,Nao_Importado,Boa Vista
+4/15/20,Guineense,44,M,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,34,F,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,33,M,confirmado,Nao_Importado,Boa Vista
 4/15/20,Cabo-verdiana,42,F,confirmado,Nao_Importado,Boa Vista
@@ -131,7 +131,6 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 5/1/20,Cabo-verdiana,90,F,confirmado,Nao_Importado,Praia
 5/1/20,Cabo-verdiana,34,M,recuperado,Nao_Importado,Boa Vista
 5/1/20,Cabo-verdiana,34,M,recuperado,Nao_Importado,Boa Vista
-5/1/20,Cabo-verdiana,33,M,recuperado,Nao_Importado,Boa Vista
 5/1/20,Cabo-verdiana,36,M,recuperado,Nao_Importado,Boa Vista
 5/1/20,Cabo-verdiana,55,M,recuperado,Nao_Importado,Boa Vista
 5/1/20,Cabo-verdiana,34,F,recuperado,Nao_Importado,Boa Vista
@@ -144,6 +143,7 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 5/1/20,Cabo-verdiana,23,F,recuperado,Nao_Importado,Boa Vista
 5/1/20,Cabo-verdiana,24,F,recuperado,Nao_Importado,Boa Vista
 5/1/20,Cabo-verdiana,90,F,obito,Nao_Importado,Praia
+5/1/20,Guineense,35,M,recuperado,Nao_Importado,Boa Vista
 5/2/20,Cabo-verdiana,33,F,confirmado,Nao_Importado,Praia
 5/2/20,Cabo-verdiana,33,F,confirmado,Nao_Importado,Praia
 5/2/20,Cabo-verdiana,33,F,confirmado,Nao_Importado,Praia
