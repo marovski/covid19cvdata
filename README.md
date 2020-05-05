@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 ![Data Refresh](https://github.com/marovski/covid19cvdata/workflows/Data%20Refresh/badge.svg)
+
 <!-- badges: end -->
 
 The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provided dashboards (the sad part) it was possible to extract the data from them and organize them in A Tidy format for the COVID-19 datasets.
@@ -44,9 +45,19 @@ This is a basic example which shows you how to use the data
 ```{r} 
 data("covid19cv")
 ```
-### Data Dictionary
+### Data
 
-missing...
+```{r}
+head(covid19cv) 
+
+  data        nacionalidade sexo  tipo_caso tipo_transmissao  concelho grupo_etario ilha    long      lat
+# 2020-03-19       Inglesa    M confirmado        Importado Boa Vista      [60,70[   BV -22.80094 16.09951
+# 2020-03-21     Holandesa    F confirmado        Importado Boa Vista      [60,70[   BV -22.80094 16.09951
+# 2020-03-21       Inglesa    M confirmado        Importado Boa Vista      [50,60[   BV -22.80094 16.09951
+# 2020-03-24       Inglesa    M      obito        Importado Boa Vista      [60,70[   BV -22.80094 16.09951
+# 2020-03-25 Cabo-verdiana    M confirmado        Importado     Praia      [40,50[   ST -23.50961 14.91602
+# 2020-03-25       Inglesa    M   evacuado        Importado Boa Vista      [50,60[   BV -22.80094 16.09951
+```
 
 ### Data Sources
 
