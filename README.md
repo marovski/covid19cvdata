@@ -3,7 +3,7 @@
 
 <!-- badges: start -->
 ![Data Refresh](https://github.com/marovski/covid19cvdata/workflows/Data%20Refresh/badge.svg)
-
+<a href='https://www.tidyverse.org/lifecycle/#experimental'><img src='./man/figures/lifecycle-experimental.svg' alt='Experimental lifecycle'></a>
 <!-- badges: end -->
 
 The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provided dashboards (the sad part) it was possible to extract the data from them and organize them in A Tidy format for the COVID-19 datasets.
