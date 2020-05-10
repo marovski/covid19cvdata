@@ -4,12 +4,19 @@
 <!-- badges: start -->
 ![Data Refresh](https://github.com/marovski/covid19cvdata/workflows/Data%20Refresh/badge.svg)
 <a href='https://www.tidyverse.org/lifecycle/#experimental'><img src='./man/figures/lifecycle-experimental.svg' alt='Experimental lifecycle'></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Last Commit](https://img.shields.io/github/last-commit/google/skia.svg)
+
 <!-- badges: end -->
 
-The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provided dashboards (the sad part) it was possible to extract the data from them and organize them in A Tidy format for the COVID-19 datasets.
-Mantainer [Marovski](https://github.com/marovski).
+The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provide a dashboard (the sad part) it was possible to extract the data to csv and organize them in tidy format for the COVID-19 datasets.
 
-* `covid19cv` - For each date since the first case, containing the nacionality, the sex, the type of case and other categories.
+#### Idiom
+ The variables of the data are in portuguese.
+ 
+### Package datasets
+
+* `covid19cv` - For each date since the first case, containing the nacionality, sex, age group, type of case (confirmed, recovered or death) and other categories.
 
 + `covid19cv_nacional` - The number of cases by type for each date since the first case
 
@@ -73,5 +80,7 @@ head(covid19cv)
 
 
 
+### Mantainer 
+[Marovski](https://github.com/marovski).
 -------------------
 Please note that the 'covid19cvdata' project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.

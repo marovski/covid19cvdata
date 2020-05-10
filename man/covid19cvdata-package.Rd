@@ -4,7 +4,7 @@
 \name{covid19cvdata-package}
 \alias{covid19cvdata}
 \alias{covid19cvdata-package}
-\title{covid19cvdata: Dataset for Cabo Verde Covid19 Data}
+\title{covid19cvdata: Dataset Package for Cabo Verde Covid19 Data}
 \description{
 This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean the public data. Due the current situation of covid-19 in Cabo Verde there's been lacking 
         a easy way to access data about the numbers of the evolution of the pandemic in the country. 

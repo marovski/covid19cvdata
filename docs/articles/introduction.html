@@ -93,14 +93,42 @@
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install the released version of covid19italy from <a href="https://github.com/marovski/covid19cvdata">Github</a> with:</p>
-<div class="sourceCode" id="cb1"><html><body><pre class="r"><span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu">install.github</span>(<span class="st">"covid19cvdata"</span>)</pre></body></html></div>
+<div class="sourceCode" id="cb1"><html><body><pre class="r">devtools::install_github("marovski/covid19cvdata")
+#&gt; Downloading GitHub repo marovski/covid19cvdata@master
+#&gt; 
+#&gt;   
+   checking for file ‘/private/var/folders/0w/89tqwttj2dn037bxgn2m4vx40000gn/T/RtmpHvN3nr/remotes22df5407fa59/marovski-covid19cvdata-5dd73ea/DESCRIPTION’ ...
+  
+✓  checking for file ‘/private/var/folders/0w/89tqwttj2dn037bxgn2m4vx40000gn/T/RtmpHvN3nr/remotes22df5407fa59/marovski-covid19cvdata-5dd73ea/DESCRIPTION’
+#&gt; 
+  
+─  preparing ‘covid19cvdata’:
+#&gt; 
+  
+   checking DESCRIPTION meta-information ...
+  
+✓  checking DESCRIPTION meta-information
+#&gt; 
+  
+─  checking for LF line-endings in source and make files and shell scripts
+#&gt; 
+  
+─  checking for empty or unneeded directories
+#&gt; ─  looking to see if a ‘data/datalist’ file should be added
+#&gt; 
+  
+─  building ‘covid19cvdata_0.1.9000.tar.gz’
+#&gt; 
+  
+   
+#&gt; 
+#&gt; Installing package into '/private/var/folders/0w/89tqwttj2dn037bxgn2m4vx40000gn/T/RtmpIgGVcm/temp_libpath1bef4acac3e7'
+#&gt; (as 'lib' is unspecified)</pre></body></html></div>
 <div id="load-the-library" class="section level3">
 <h3 class="hasAnchor">
 <a href="#load-the-library" class="anchor"></a>Load the library</h3>
-<div class="sourceCode" id="cb2"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">covid19cvdata</span>)
-
-<span class="fu"><a href="../reference/data.update.html">data.update</a></span>()
-<span class="co">#&gt; No updates are available</span></pre></body></html></div>
+<div class="sourceCode" id="cb2"><html><body><pre class="r">
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">covid19cvdata</span>)</pre></body></html></div>
 </div>
 <div id="load-the-your-dataset-covid19cv" class="section level3">
 <h3 class="hasAnchor">
@@ -112,10 +140,10 @@
 <a href="#load-the-your-dataset-covid19cv_nacional-containing-totals-by-case-type" class="anchor"></a>Load the your dataset covid19cv_nacional (Containing totals by case type)</h3>
 <div class="sourceCode" id="cb4"><html><body><pre class="r"><span class="no">dataset</span><span class="kw">&lt;-</span><span class="kw pkg">covid19cvdata</span><span class="kw ns">::</span><span class="no"><a href="../reference/covid19cv_nacional.html">covid19cv_nacional</a></span></pre></body></html></div>
 </div>
-<div id="load-the-your-dataset-covid19cv_cidades-containing-totals-by-cities" class="section level3">
+<div id="load-the-your-dataset-covid19cv_concelhos-containing-totals-by-cities" class="section level3">
 <h3 class="hasAnchor">
-<a href="#load-the-your-dataset-covid19cv_cidades-containing-totals-by-cities" class="anchor"></a>Load the your dataset covid19cv_cidades (Containing totals by cities)</h3>
-<div class="sourceCode" id="cb5"><html><body><pre class="r"><span class="no">dataset</span><span class="kw">&lt;-</span><span class="kw pkg">covid19cvdata</span><span class="kw ns">::</span><span class="no">covid19cv_cidades</span></pre></body></html></div>
+<a href="#load-the-your-dataset-covid19cv_concelhos-containing-totals-by-cities" class="anchor"></a>Load the your dataset covid19cv_concelhos (Containing totals by cities)</h3>
+<div class="sourceCode" id="cb5"><html><body><pre class="r"><span class="no">dataset</span><span class="kw">&lt;-</span><span class="kw pkg">covid19cvdata</span><span class="kw ns">::</span><span class="no"><a href="../reference/covid19cv_concelhos.html">covid19cv_concelhos</a></span></pre></body></html></div>
 </div>
 <div id="load-the-your-dataset-covid19cv_pop-containing-totals-by-demographics" class="section level3">
 <h3 class="hasAnchor">

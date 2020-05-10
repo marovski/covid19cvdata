@@ -5,13 +5,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dataset for Cabo Verde Covid19 Data • covid19cvdata</title>
+<title>Dataset Package for Cabo Verde Covid19 Data • covid19cvdata</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Dataset for Cabo Verde Covid19 Data">
+<script src="pkgdown.js"></script><meta property="og:title" content="Dataset Package for Cabo Verde Covid19 Data">
 <meta property="og:description" content="This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean the public data. Due the current situation of covid-19 in Cabo Verde theres been lacking 
         a easy way to access data about the numbers of the evolution of the pandemic in the country. 
         So, to address this issue Ive manually gathered data from public sources (mainly the government website covid-19) and organized in a package.">
@@ -85,13 +85,23 @@
 <a href="#covid19cvdata" class="anchor"></a>covid19cvdata</h1></div>
 <!-- badges: start -->
 
-<p>The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provided dashboards (the sad part) it was possible to extract the data from them and organize them in A Tidy format for the COVID-19 datasets. Mantainer <a href="https://github.com/marovski">Marovski</a>.</p>
+<!-- badges: end -->
+<p>The goal of covid19cvdata package is to provide datasets of Covid19 Cases in Cabo Verde, although the public entities only provide a dashboard (the sad part) it was possible to extract the data to csv and organize them in tidy format for the COVID-19 datasets.</p>
+<div id="idiom" class="section level4">
+<h4 class="hasAnchor">
+<a href="#idiom" class="anchor"></a>Idiom</h4>
+<p>The variables of the data are in portuguese.</p>
+</div>
+<div id="package-datasets" class="section level3">
+<h3 class="hasAnchor">
+<a href="#package-datasets" class="anchor"></a>Package datasets</h3>
 <ul>
-<li><p><code>covid19cv</code> - For each date since the first case, containing the nacionality, the sex, the type of case and other categories.</p></li>
+<li><p><code>covid19cv</code> - For each date since the first case, containing the nacionality, sex, age group, type of case (confirmed, recovered or death) and other categories.</p></li>
 <li><p><code>covid19cv_nacional</code> - The number of cases by type for each date since the first case</p></li>
 <li><p><code>covid19cv_concelhos</code> - The number of cases by type for each province/region of Cabo Verde for each date since the first case</p></li>
 <li><p><code>covid19cv_pop</code> - The number of cases for each type (recovered,death,confirmed,ative,etc)by age group and sex</p></li>
 </ul>
+</div>
 <div id="installation" class="section level3">
 <h3 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h3>
@@ -112,10 +122,18 @@
 <p>This is a basic example which shows you how to use the data</p>
 <pre class="{r}"><code><a href="https://rdrr.io/r/utils/data.html">data("covid19cv")</a></code></pre>
 </div>
-<div id="data-dictionary" class="section level3">
+<div id="data" class="section level3">
 <h3 class="hasAnchor">
-<a href="#data-dictionary" class="anchor"></a>Data Dictionary</h3>
-<p>missing…</p>
+<a href="#data" class="anchor"></a>Data</h3>
+<pre class="{r}"><code>head(covid19cv) 
+
+  data        nacionalidade sexo  tipo_caso tipo_transmissao  concelho grupo_etario ilha    long      lat
+# 2020-03-19       Inglesa    M confirmado        Importado Boa Vista      [60,70[   BV -22.80094 16.09951
+# 2020-03-21     Holandesa    F confirmado        Importado Boa Vista      [60,70[   BV -22.80094 16.09951
+# 2020-03-21       Inglesa    M confirmado        Importado Boa Vista      [50,60[   BV -22.80094 16.09951
+# 2020-03-24       Inglesa    M      obito        Importado Boa Vista      [60,70[   BV -22.80094 16.09951
+# 2020-03-25 Cabo-verdiana    M confirmado        Importado     Praia      [40,50[   ST -23.50961 14.91602
+# 2020-03-25       Inglesa    M   evacuado        Importado Boa Vista      [50,60[   BV -22.80094 16.09951</code></pre>
 </div>
 <div id="data-sources" class="section level3">
 <h3 class="hasAnchor">
@@ -128,12 +146,18 @@
 <h3 class="hasAnchor">
 <a href="#credits" class="anchor"></a>Credits</h3>
 <ul>
-<li><p>covid19-dash by <a href="https://rpubs.com/joaosilva/covid19-dash">João Silva</a>: Thanks to João work and <a href="https://www.linkedin.com/posts/antonio-joao_rpubs-covid-19-dashboard-activity-6647282965627850752-LvFd">post</a> I’ve came in contact with flexdashboard and how to build interesting dashboard. This inspired me to build something focus in Cabo Verde and Africa.</p></li>
 <li><p>Italy Covid19 by <a href="https://ramikrispin.github.io/italy_dash/#about">Rami Krispin</a>: This project was a bible to learn how to build datasets package and follow the tidy standart format applied by his project <a href="https://covid19r.github.io/documentation/index.html">Covid19R</a>. Thank You!</p></li>
 <li><p>Tutorial on <a href="https://www.r-bloggers.com/creating-a-package-for-your-data-set/">R-bloggers</a></p></li>
 <li><p><a href="http://r-pkgs.had.co.nz/">R Packages</a> Book Site</p></li>
 </ul>
-<hr>
+</div>
+<div id="mantainer" class="section level3">
+<h3 class="hasAnchor">
+<a href="#mantainer" class="anchor"></a>Mantainer</h3>
+</div>
+<div id="marovski-" class="section level2">
+<h2 class="hasAnchor">
+<a href="#marovski-" class="anchor"></a><a href="https://github.com/marovski">Marovski</a>.</h2>
 <p>Please note that the ‘covid19cvdata’ project is released with a <a href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 </div>
 </div>
@@ -152,7 +176,7 @@
 <div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
-<li>CC0</li>
+<li><a href="https://opensource.org/licenses/mit-license.php">MIT</a></li>
 </ul>
 </div>
 <div class="community">
@@ -171,7 +195,8 @@
   <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/marovski/covid-19-cabo-verde-data/actions"><img src="https://github.com/marovski/covid-19-cabo-verde-data/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
+<li><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="./man/figures/lifecycle-experimental.svg" alt="Experimental lifecycle"></a></li>
+<li><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a></li>
 </ul>
 </div>
 </div>
