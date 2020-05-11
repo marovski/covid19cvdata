@@ -251,19 +251,9 @@ data.update <- function() {
 
           #get island
           covid19cv$ilha <- lapply(covid19cv$local, get.ilha)
-          covid19cv$ilha <- gsub("Pa", "ST", covid19cv$ilha)
-          covid19cv$ilha <- gsub("Ta", "ST", covid19cv$ilha)
+          covid19cv %>% mutate(ilha= stringr::str_replace_all(ilha, c("Pa"= "ST", "Ta"="ST","SD"="ST")))
           covid19cv$ilha <- as.factor(covid19cv$ilha)
-          #
-          #             #Set Cities
-          #             covid19cv$local <- gsub("Sal", "Espargos", covid19cv$local)
-          #             covid19cv$local <- gsub("Boa Vista", "Sal Rei", covid19cv$local)
-          #             covid19cv$local <- gsub("Sao Vicente", "Mindelo", covid19cv$local)
-          #             covid19cv$local <- gsub("Fogo", "Sao Filipe", covid19cv$local)
-          #             covid19cv$local <- gsub("Sao Antao", "Porto Novo", covid19cv$local)
-          #             covid19cv$local <- gsub("Brava", "Nova Sintra", covid19cv$local)
-          #             covid19cv$local <- gsub("Sao Nicolau", "Ribeira Brava", covid19cv$local)
-          #             covid19cv$local <- gsub("Maio", "Vila do Maio", covid19cv$local)
+
           names(covid19cv)[6] <- "concelho"
           covid19cv$concelho <- as.factor(covid19cv$concelho)
 

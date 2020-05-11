@@ -10,7 +10,7 @@ Maintainer: Marovski <cardozo27cv@gmail.com>
 Description: This package contains all registered cases of covid19 in Cabo Verde and functions used to gather and clean the public data. Due the current situation of covid-19 in Cabo Verde there's been lacking 
         a easy way to access data about the numbers of the evolution of the pandemic in the country. 
         So, to address this issue I've manually gathered data from public sources (mainly the government website covid-19) and organized in a package.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.1.0)
@@ -26,6 +26,7 @@ Imports:
     git2r,
     fs,
     glue,
+    stringr,
     devtools,
     lifecycle
 Suggests: 
