@@ -81,7 +81,7 @@ data.update <- function() {
 
           #get island
           covid19cv$ilha <- lapply(covid19cv$local, get.ilha)
-          covid19cv$ilha <-stringr::str_replace_all(covid19cv$ilha, c("Pa"= "ST", "Ta"="ST","SD"="ST"))
+          covid19cv$ilha <-stringr::str_replace_all(covid19cv$ilha, c("Pa"= "ST", "Ta"="ST","SD"="ST","Sa"="ST"))
           covid19cv$ilha <- as.factor(covid19cv$ilha)
 
           names(covid19cv)[6] <- "concelho"
