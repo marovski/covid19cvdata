@@ -595,13 +595,13 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 5/30/20,Cabo-verdiana,45,F,recuperado,Nao_Importado,Praia
 5/30/20,Cabo-verdiana,55,M,recuperado,Nao_Importado,Praia
 5/30/20,Cabo-verdiana,55,F,recuperado,Nao_Importado,Praia
-5/31/20,Cabo-verdiana,22,M,confirmado,Nao_Importado,Praia
+5/31/20,Cabo-verdiana,22,M,confirmado,Importado,Praia
 5/31/20,Cabo-verdiana,22,M,confirmado,Nao_Importado,Praia
 5/31/20,Cabo-verdiana,22,M,confirmado,Nao_Importado,Praia
 5/31/20,Cabo-verdiana,22,M,confirmado,Nao_Importado,Praia
 5/31/20,Cabo-verdiana,55,M,confirmado,Nao_Importado,Praia
 5/31/20,Cabo-verdiana,55,M,confirmado,Nao_Importado,Santa Cruz
-5/31/20,Cabo-verdiana,34,F,confirmado,Nao_Importado,Sao Vicente
+5/31/20,Cabo-verdiana,34,F,confirmado,Importado,Sao Vicente
 5/31/20,Cabo-verdiana,34,F,confirmado,Nao_Importado,Praia
 5/31/20,Cabo-verdiana,22,F,confirmado,Nao_Importado,Praia
 5/31/20,Cabo-verdiana,22,F,confirmado,Nao_Importado,Praia
@@ -748,14 +748,15 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 6/4/20,Cabo-verdiana,58,M,confirmado,Nao_Importado,Santa Cruz
 6/4/20,Cabo-verdiana,25,F,recuperado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,8,F,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,8,F,recuperado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,28,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,28,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,28,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,28,F,confirmado,Nao_Importado,Praia
-6/5/20,Cabo-verdiana,28,F,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,28,F,confirmado,Nao_Importado,Santa Cruz
 6/5/20,Cabo-verdiana,38,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,38,F,confirmado,Nao_Importado,Praia
-6/5/20,Cabo-verdiana,38,F,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,38,F,confirmado,Nao_Importado,Sal
 6/5/20,Cabo-verdiana,48,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,48,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,48,F,confirmado,Nao_Importado,Praia
@@ -765,3 +766,23 @@ Data,Nacionalidade,FaixaEtaria,Sexo,TipoCaso,TipoTransmissao,Local
 6/5/20,Cabo-verdiana,68,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,78,F,confirmado,Nao_Importado,Praia
 6/5/20,Cabo-verdiana,78,F,confirmado,Nao_Importado,Sal
+6/5/20,Cabo-verdiana,28,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,28,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,28,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,28,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,28,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,38,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,38,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,38,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,48,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,48,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,58,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,58,M,confirmado,Nao_Importado,Praia
+6/5/20,Cabo-verdiana,58,M,confirmado,Nao_Importado,Sal
+6/5/20,Cabo-verdiana,68,M,confirmado,Nao_Importado,Sal
+6/6/20,Cabo-verdiana,18,F,confirmado,Nao_Importado,Santa Catarina
+6/6/20,Cabo-verdiana,18,F,confirmado,Nao_Importado,Sao Vicente
+6/6/20,Cabo-verdiana,8,M,confirmado,Nao_Importado,Sao Vicente
+6/6/20,Cabo-verdiana,8,M,confirmado,Nao_Importado,Sao Vicente
+6/6/20,Cabo-verdiana,18,M,confirmado,Nao_Importado,Sao Vicente
+6/6/20,Cabo-verdiana,28,M,confirmado,Nao_Importado,Sao Vicente
