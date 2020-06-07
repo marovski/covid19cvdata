@@ -595,13 +595,13 @@
 2020-05-30,"Cabo-verdiana","F","recuperado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-05-30,"Cabo-verdiana","M","recuperado","Nao_Importado","Praia","[50,60[","ST",-23.5096132,14.9160169
 2020-05-30,"Cabo-verdiana","F","recuperado","Nao_Importado","Praia","[50,60[","ST",-23.5096132,14.9160169
-2020-05-31,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-05-31,"Cabo-verdiana","M","confirmado","Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-05-31,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-05-31,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-05-31,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-05-31,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[50,60[","ST",-23.5096132,14.9160169
 2020-05-31,"Cabo-verdiana","M","confirmado","Nao_Importado","Santa Cruz","[50,60[","ST",-23.5576819,15.1323932
-2020-05-31,"Cabo-verdiana","F","confirmado","Nao_Importado","Sao Vicente","[30,40[","SV",-24.9719862511157,16.8492155
+2020-05-31,"Cabo-verdiana","F","confirmado","Importado","Sao Vicente","[30,40[","SV",-24.9719862511157,16.8492155
 2020-05-31,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
 2020-05-31,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-05-31,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
@@ -748,14 +748,15 @@
 2020-06-04,"Cabo-verdiana","M","confirmado","Nao_Importado","Santa Cruz","[50,60[","ST",-23.5576819,15.1323932
 2020-06-04,"Cabo-verdiana","F","recuperado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[0,10[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","F","recuperado","Nao_Importado","Praia","[0,10[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
-2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Santa Cruz","[20,30[","ST",-23.5576819,15.1323932
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
-2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal","[30,40[","S",-22.9386761270263,16.72045565
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
@@ -765,3 +766,23 @@
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[60,70[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Praia","[70,80[","ST",-23.5096132,14.9160169
 2020-06-05,"Cabo-verdiana","F","confirmado","Nao_Importado","Sal","[70,80[","S",-22.9386761270263,16.72045565
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[20,30[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[30,40[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[40,50[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[50,60[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Praia","[50,60[","ST",-23.5096132,14.9160169
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal","[50,60[","S",-22.9386761270263,16.72045565
+2020-06-05,"Cabo-verdiana","M","confirmado","Nao_Importado","Sal","[60,70[","S",-22.9386761270263,16.72045565
+2020-06-06,"Cabo-verdiana","F","confirmado","Nao_Importado","Santa Catarina","[10,20[","ST",-23.6668745,15.097635
+2020-06-06,"Cabo-verdiana","F","confirmado","Nao_Importado","Sao Vicente","[10,20[","SV",-24.9719862511157,16.8492155
+2020-06-06,"Cabo-verdiana","M","confirmado","Nao_Importado","Sao Vicente","[0,10[","SV",-24.9719862511157,16.8492155
+2020-06-06,"Cabo-verdiana","M","confirmado","Nao_Importado","Sao Vicente","[0,10[","SV",-24.9719862511157,16.8492155
+2020-06-06,"Cabo-verdiana","M","confirmado","Nao_Importado","Sao Vicente","[10,20[","SV",-24.9719862511157,16.8492155
+2020-06-06,"Cabo-verdiana","M","confirmado","Nao_Importado","Sao Vicente","[20,30[","SV",-24.9719862511157,16.8492155
